@@ -1,0 +1,26 @@
+{
+    "weapon group": "Handguns",
+    "skill test": "AGI+Projectiles",
+    "items": [
+      {
+        "name": "Signal Pistol",
+        "caliber": "Special",
+        "handling": 0,
+        "distance": [{ "effective": 15 }, { "far shot": 60 }],
+        "damage": "5",
+        "magazine": 1,
+        "qualities": [
+            {
+                "name": "Fire Hazardous",
+                "property": null
+              }
+        ],
+        "encumbrance": 1,
+        "technology": 4,
+        "slots": 2,
+        "value": 900,
+        "resources": 0,
+        "cult": [],
+        "description": null,
+        "specialty": null
+      }]}

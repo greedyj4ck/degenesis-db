@@ -1,0 +1,26 @@
+{
+    "weapon group": "Heavy Weapons",
+    "skill test": "AGI+Projectiles",
+    "items": [
+      {
+        "name": "Grenade launcher",
+        "caliber": "Grenades",
+        "handling": -2,
+        "distance": [{ "effective": 20 }, { "far shot": 60 }],
+        "damage": "Special",
+        "magazine": 1,
+        "qualities": [
+            {
+                "name": "Deviation",
+                "property": null
+              }
+        ],
+        "encumbrance": 2,
+        "technology": 4,
+        "slots": 2,
+        "value": 1900,
+        "resources": 0,
+        "cult": [],
+        "description": null,
+        "specialty": null
+      }]}

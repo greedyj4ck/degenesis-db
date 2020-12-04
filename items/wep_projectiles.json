@@ -1,0 +1,21 @@
+{
+    "weapon group": "Projectiles",
+    "skill test": "AGI+Projectiles",
+    "items": [
+      {
+        "name": "Blow gun",
+        "caliber": "Nails",
+        "handling": 0,
+        "distance": [{ "effective": 3 }, { "far shot": 12 }],
+        "damage": "4",
+        "magazine": 1,
+        "qualities": [],
+        "encumbrance": 0,
+        "technology": 1,
+        "slots": 1,
+        "value": 30,
+        "resources": 0,
+        "cult": [],
+        "description": null,
+        "specialty": null
+      }]}

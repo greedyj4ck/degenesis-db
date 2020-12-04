@@ -1,0 +1,21 @@
+{
+    "weapon group": "Rifles",
+    "skill test": "AGI+Projectiles",
+    "items": [
+      {
+        "name": "Hunting rifle",
+        "caliber": ".357",
+        "handling": 0,
+        "distance": [{ "effective": 30 }, { "far shot": 120 }],
+        "damage": "6",
+        "magazine": 4,
+        "qualities": [],
+        "encumbrance": 2,
+        "technology": 4,
+        "slots": 2,
+        "value": 900,
+        "resources": 0,
+        "cult": [],
+        "description": null,
+        "specialty": null
+      }]}
