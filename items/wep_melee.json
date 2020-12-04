@@ -1,0 +1,1188 @@
+{
+  "weapon group": "Melee",
+  "skill test": "BOD+Melee",
+  "items": [
+    {
+      "name": "Butt stock",
+      "handling": 0,
+      "distance": 1,
+      "damage": "F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        }
+      ],
+      "encumbrance": null,
+      "technology": 3,
+      "slots": 0,
+      "value": 0,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Flail",
+      "handling": -1,
+      "distance": 2,
+      "damage": "2+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        },
+        {
+          "name": "Talisman (for Anabaptists)",
+          "property": "+1D"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 1,
+      "slots": 1,
+      "value": 5,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Pitchfork",
+      "handling": 0,
+      "distance": 2,
+      "damage": "2+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Talisman (for Anabaptists)",
+          "property": "+1D"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 1,
+      "slots": 1,
+      "value": 5,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Shard dagger",
+      "handling": 0,
+      "distance": 1,
+      "damage": "4+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Fragile",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 1,
+      "slots": 1,
+      "value": 5,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Club",
+      "handling": 0,
+      "distance": 1,
+      "damage": "2+F/2",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 1,
+      "slots": 2,
+      "value": 20,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Stiletto",
+      "handling": 0,
+      "distance": 1,
+      "damage": "2+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Smooth Running",
+          "property": "2T"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 2,
+      "slots": 1,
+      "value": 25,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Grapple",
+      "handling": -1,
+      "distance": 3,
+      "damage": "2+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Smooth Running",
+          "property": "2T"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 1,
+      "value": 30,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Chain of blades",
+      "handling": -2,
+      "distance": 3,
+      "damage": "3+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Out of Control",
+          "property": "3"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 1,
+      "value": 40,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Knife",
+      "handling": 1,
+      "distance": 1,
+      "damage": "2+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Smooth Running",
+          "property": "2T"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 2,
+      "slots": 1,
+      "value": 40,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Spade",
+      "handling": 0,
+      "distance": 1,
+      "damage": "3+F/3",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 2,
+      "value": 40,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Hand Axe",
+      "handling": 0,
+      "distance": 1,
+      "damage": "4+F/3",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 2,
+      "slots": 1,
+      "value": 50,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Spear",
+      "handling": 0,
+      "distance": 2,
+      "damage": "4+F/3",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 1,
+      "slots": 1,
+      "value": 50,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Stone axe",
+      "handling": -2,
+      "distance": 1,
+      "damage": "3+F/2",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 1,
+      "slots": 1,
+      "value": 120,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Sledgehammer",
+      "handling": -2,
+      "distance": 1,
+      "damage": "F",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        },
+        {
+          "name": "Impact",
+          "property": "3T"
+        }
+      ],
+      "encumbrance": 4,
+      "technology": 2,
+      "slots": 1,
+      "value": 280,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Riding Pick",
+      "handling": 0,
+      "distance": 1,
+      "damage": "5+F/2",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 2,
+      "slots": 2,
+      "value": 300,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Mace",
+      "handling": 0,
+      "distance": 1,
+      "damage": "4+F/2",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 1,
+      "value": 350,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Morning Star",
+      "handling": -1,
+      "distance": 1,
+      "damage": "5+F/2",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 2,
+      "value": 400,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Pickaxe",
+      "handling": -3,
+      "distance": 1,
+      "damage": "1+F",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Impact",
+          "property": "3T"
+        }
+      ],
+      "encumbrance": 4,
+      "technology": 2,
+      "slots": 1,
+      "value": 450,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Saber",
+      "handling": 0,
+      "distance": 1,
+      "damage": "6+F/3",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 2,
+      "slots": 2,
+      "value": 600,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Sword",
+      "handling": 0,
+      "distance": 1,
+      "damage": "6+F/3",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 2,
+      "value": 600,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Battle axe",
+      "handling": -2,
+      "distance": 2,
+      "damage": "6+F/2",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Impact",
+          "property": "2T"
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 2,
+      "slots": 2,
+      "value": 750,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Splayer",
+      "handling": -1,
+      "distance": 2,
+      "damage": "4+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Cutting",
+          "property": "2T",
+          "bonus": "+1D"
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 4,
+      "slots": 2,
+      "value": 2800,
+      "resources": 0,
+      "cult": ["Spitalians"],
+      "description": "According to the old stories, the UEO used the Splayers in de-escalation scenarios in Bygone times. Supposedly, the plug-ins that are usually seen today served as interfaces for AMSUMOs to control the blades. The functionality remains: in the shaft, there is a kinetic storage cylinder that is fueled by the pumping of a lever, which spreads the blades. If the lever is pushed out, the outer blades close quickly and forcefully over the middle blade. Various attachments can be screwed on top of the shaft, though usually a Mollusk container is chosen.",
+      "specialty": "Special ability “Cutting”—If an attack succeeds, the Spitalian can spend (2) Triggers to make the blades snap closed for an additional 1D of Damage. The 2T used are not factored into the Damage calculation, so if the Player rolls only a 1 for the additional Damage, he does (1) point of Damage less than if he had not used “Cutting”. However, in the best case he can do (4) extra points of Damage."
+    },
+    {
+      "name": "Surgical tools",
+      "handling": 0,
+      "distance": 1,
+      "damage": "3+F/3",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 3,
+      "slots": 1,
+      "value": "1000 x Level",
+      "resources": "3/4/5",
+      "cult": ["Spitalians"],
+      "description": "Scalpel, staples, and saws are the tools of a Surgeon, and they tell a lot about the doctor’s position within the hierarchy of his department. While the Spital supplies its Surgeons with everything they need for an operation, these instruments were taken out of their sterile packaging five centuries ago. Every self-respecting doctor has his own surgical instruments made from the best materials by the Steel Masters or the Purgan Sforzas. Perfection has its price.",
+      "specialty": "There are 3 levels of surgical tools. Per level, they give +1D to medically treating Trauma Damage."
+    },
+    {
+      "name": "Injector Gun",
+      "handling": 0,
+      "distance": 1,
+      "damage": null,
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Special",
+          "property": null
+        },
+        {
+          "name": "Piercing",
+          "property": 4
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 1,
+      "value": 1400,
+      "resources": 4,
+      "cult": ["Spitalians"],
+      "description": "Anesthesiologists prefer to perfectly aim their drugs or agents by using Injector Guns.",
+      "specialty": "With a successful melee attack, the injector can be pressed against the target and inject it with its contents. The Injector Gun will only penetrate armor with a maximum Armor rating of (4). It carries just (1) dose."
+    },
+    {
+      "name": "Preservalis Sword",
+      "handling": 0,
+      "distance": 1,
+      "damage": "7+F/2",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 3,
+      "slots": 2,
+      "value": 1800,
+      "resources": 0,
+      "cult": ["Spitalians"],
+      "description": "The steel blade is black, well-oiled, and sharp as a scalpel. With one hit, it severs sinews and bone. It is perfectly balanced and lies well in the hand. “Only the best surgical steel,” the Preservists say without even a grin. The steel may be more flexible than that of an Anabaptist Bidenhander and more precise and elegant than a Jehammedan riding hoe, but what really makes the Preservalis Sword better than any other weapon is not one of its qualities or the crafstmanship of the material, but the person who has been deemed worthy to wield it.",
+      "specialty": null
+    },
+    {
+      "name": "Shocker",
+      "handling": 0,
+      "distance": 1,
+      "damage": null,
+      "magazine": 16,
+      "qualities": [
+        {
+          "name": "Dazed",
+          "property": 8
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 1,
+      "value": 2400,
+      "resources": 0,
+      "cult": ["Chroniclers"],
+      "description": "Chroniclers stay out of battles. If that is not possible, a Streamer Glove usually isn’t enough to subdue an opponent. This is why Chroniclers in dangerous regions often carry its bigger brother: the Shocker. The weapon is about as long as an arm and has two E-Cubes that discharge into the enemy’s body when the Chronicler presses a button. Then the smell of roasted meat wafts across the area...",
+      "specialty": null
+    },
+    {
+      "name": "Judgment Hammer",
+      "handling": -2,
+      "distance": 1,
+      "damage": "1+F",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        },
+        {
+          "name": "Impact",
+          "property": "3T"
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 3,
+      "slots": 2,
+      "value": 1500,
+      "resources": 0,
+      "cult": ["Judges"],
+      "description": "The First Judge founded the tradition of judging by hammer. It has lingered on until today. Every City Judge gets one of these solid steel hammers when he is anointed— and will soon have to use it. A Judgment hammer is not a trinket. It symbolizes the executive power. That is why its rounded steel head is unadorned. The shaft is over 1 m long and just as plain.",
+      "specialty": "A Judgment hammer has the negative special ability “Impact (3T)”. It can be dampened by a Potential."
+    },
+    {
+      "name": "Crusher",
+      "handling": -2,
+      "distance": 1,
+      "damage": "2+F/2",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 1,
+      "slots": 6,
+      "value": 600,
+      "resources": 1,
+      "cult": ["SCrappers"],
+      "description": "As with the Marvels, Scrappers also build melee weapons from artifact scrap. They cobble together saw blades, spikes, and glass shards and build swords from sheet metal. The only thing that matters is that it stays together and looks brutal. Scrappers are not fighters, so deterrence is important.",
+      "specialty": "Crushers have a high number of slots."
+    },
+    {
+      "name": "Iron Club of the Cockroach Kings",
+      "handling": -3,
+      "distance": 2,
+      "damage": "2+F",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        },
+        {
+          "name": "Impact",
+          "property": "3T"
+        }
+      ],
+      "encumbrance": 5,
+      "technology": 1,
+      "slots": 2,
+      "value": 300,
+      "resources": "Unique",
+      "cult": ["Clanners"],
+      "description": "The Cockroach Clan is infamous for its nightly forays. Its fighters, thirsty for blood, break from the ruins, disappearing back into their wrecked world by day. Their kings are different: bloated, colossal, the head barely reaching above the shoulders. The Cockroaches treat them like dangerous animals, caged, worshiped. The women are keen on being impregnated by them: strong children for the nest. If one of these kings is released on an enemy, he drags a club, an iron beam coated in sharpened sheet-metal and wrapped in barbed wire. With it, he attacks the Judges’ horses and tears them to the ground. The warriors do the rest.",
+      "specialty": null
+    },
+    {
+      "name": "Khopesh",
+      "handling": 0,
+      "distance": 1,
+      "damage": "6+F/2",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Special damage",
+          "property": "Psychonauts, +2"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 2,
+      "value": 1800,
+      "resources": 3,
+      "cult": ["Anubians"],
+      "description": "According to myth, only the Khopesh chosen by Anubis can cut through a creature’s lifeline without tearing through meat and organs like the Scourgers do. The sword is brought into the land of the Crow mainly by the Anubian Sickles and Ammits to eradicate Psychonauts from the wave. All Khopeshes are ancient. They were once taken from the chambers in Cairo by those in the First Circle and passed on to worthy Anubians by the Hogons. Only a few hundred still exist, passed on by recently chosen Hogons to young Sickles. There will come a day when a Sickle will have to go north without his blade.",
+      "specialty": "(+2) Damage against Psychonauts."
+    },
+    {
+      "name": "Ammit Sickle",
+      "handling": 0,
+      "distance": 1,
+      "damage": "7+F/2",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Special damage",
+          "property": "Psychonauts, +3"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 2,
+      "value": 3200,
+      "resources": 6,
+      "cult": ["Anubians"],
+      "description": "An Ammit sickle is even rarer than a Khopesh. According to legend, its blade was made from meteorite iron collected millennia ago from a crater in central Africa. The first Nubian king, Alara, is said to have worn one of these weapons when he rose to the throne as a sign that his ruling dynasty and the Nubian people would flourish under the protection of the Ammit sickle. The blades are pockmarked and black from age: only the edges are sharp. The faces show delicate patterns reminiscent of the contour lines on topographic maps. It is uncertain whether they originally had a connection to Ammit: maybe the Anubians in Cairo would know. The name of the weapon has its origin in the fact that today the sickle blades are given to the enigmatic Ammits by the Hogons.",
+      "specialty": "(+3) Damage against Psychonauts."
+    },
+    {
+      "name": "Curved dagger",
+      "handling": 1,
+      "distance": 1,
+      "damage": "2+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Special",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 2,
+      "slots": 2,
+      "value": 180,
+      "resources": 3,
+      "cult": ["Neolibyans"],
+      "description": "A Neolibyan sees his curved dagger as more of a statement than a weapon. The blade symbolizes his ties to an ancient Africa where a man was nothing without a dagger. Like the hunting rifles, the curved daggers are adorned with gold and bejeweled. They are worn on the belt, plainly visible for everyone to see.",
+      "specialty": "Add-on slots can be used for ornamentation, similar to the hunting rifle."
+    },
+    {
+      "name": "Ancestor spear",
+      "handling": 0,
+      "distance": 2,
+      "damage": "4+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Talisman",
+          "property": "+2D"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 1,
+      "slots": 2,
+      "value": 500,
+      "resources": 0,
+      "cult": ["Scourgers"],
+      "description": "The spear is the traditional Scourger weapon that every young warrior has to master before he gets his first rifle. If the Scourger manages a heroic deed with the aid of his spear, it is also ascribed to the weapon. Such a blessed weapon is a bringer of luck and is considered ensouled. An ancestor or benign spirit obviously inhabits it and leads the Scourger’s hand. The warriors treat such a spear with respect and pass it along in the pack when its owner has died.",
+      "specialty": "Ensouled weapons are recognizable from their engravings of thanks and their colorful cords. They are never sold. A Scourger has to prove that he’s worthy on the battlefield to be honored with such a weapon by his Dumisai. When he has it in his hands, he feels invincible: +2D to PSY+Faith/Willpower (see “Talisman” Quality)."
+    },
+    {
+      "name": "Scourge",
+      "handling": -2,
+      "distance": 3,
+      "damage": "3+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Dazed",
+          "property": 8
+        },
+        {
+          "name": "Out of control",
+          "property": 3
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 2,
+      "value": 1900,
+      "resources": 2,
+      "cult": ["Scourgers"],
+      "description": "The Scourge entered the land in the hand of the Hybrispanian invaders, driving the Africans—until they rose up and tore the shock whips from the hands of the invaders. Since then, the Scourge has been a symbol for Africa’s freedom. The design of the weapon hasn’t changed since that day: the shaft is insulated and contains an E-Cube that energizes a thicket of barbed cords of more than 3 meters in length. The cords are retractable so that the Scourge can be worn on the belt. When someone is hit by the Scourge, the cords discharge a network of blue lightning. It smells of ozone and burnt flesh. ",
+      "specialty": null
+    },
+    {
+      "name": "Scimitar",
+      "handling": 0,
+      "distance": 1,
+      "damage": "6+F/3",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 1,
+      "value": 600,
+      "resources": 3,
+      "cult": ["Jehammedans"],
+      "description": "The Scimitar, considered a traditional weapon, is preferred amongst Jehammedans. Ismaeli carry poorly balanced and simple steel sabers. The Isaaki, however, may wield artfully adorned Damascene sabers worth a fortune.",
+      "specialty": null
+    },
+    {
+      "name": "Ram staff",
+      "handling": -2,
+      "distance": 2,
+      "damage": "F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        },
+        {
+          "name": "Standard (attack bonus)",
+          "property": "+1D"
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 1,
+      "slots": 1,
+      "value": 3300,
+      "resources": 4,
+      "cult": ["Jehammedans"],
+      "description": "The ram staff is a symbol for the strength and singlemindedness of the Cult. On the day before a great battle, the Iconide hands it over to the Isaaki who will lead the Swords of Jehammed to death or victory.",
+      "specialty": "Jehammedans rally to the staff in battle and feel inspired: in a (20) meter radius, they get +1D to their Attack rolls (“Standard” Quality)."
+    },
+    {
+      "name": "Horn",
+      "handling": 1,
+      "distance": 1,
+      "damage": "9+F/3",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 5,
+      "slots": 0,
+      "value": 24000,
+      "resources": 6,
+      "cult": ["Jehammedans"],
+      "description": "An unusual sword. It looks like an elongated horn and is razor-sharp, hard as a diamond, pure white, and serrated. Only those who are close to Aries may wield this weapon.",
+      "specialty": null
+    },
+    {
+      "name": "Damascene Saber",
+      "handling": 0,
+      "distance": 1,
+      "damage": "7+F/3",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 3,
+      "slots": 2,
+      "value": 2800,
+      "resources": 5,
+      "cult": ["Jehammedans"],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Koumaya dagger",
+      "handling": 1,
+      "distance": 1,
+      "damage": "2+F/3",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 2,
+      "slots": 1,
+      "value": 50,
+      "resources": 1,
+      "cult": ["Apocalyptics"],
+      "description": "The Koumaya dagger is a traditional curved dagger. Young African Apocalyptics wield it at their hip to demonstrate strength, even when there is none. More experienced Apocalyptics like the Marabous and Ibises only grin. They were once young themselves and also needed something to cling to. Still, the Koumaya is a lethal weapon in skilled hands. Some of the African migrants rely on it for their whole lives.",
+      "specialty": null
+    },
+    {
+      "name": "Steel cotters",
+      "handling": 0,
+      "distance": 1,
+      "damage": null,
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Special",
+          "property": null
+        },
+        {
+          "name": "Piercing",
+          "property": "2"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 2,
+      "slots": 0,
+      "value": 5,
+      "resources": 1,
+      "cult": ["Apocalyptics"],
+      "description": "An assassin’s weapon: in passing, the steel pins are driven into the victim’s flesh. The victim spasms, clutches the wound, tries to pull out the cotters yet cannot get a grip on them. Death is slow and painful.An assassin’s weapon: in passing, the steel pins are driven into the victim’s flesh. The victim spasms, clutches the wound, tries to pull out the cotters yet cannot get a grip on them. Death is slow and painful.",
+      "specialty": "After a successful attack, the cotters are in the enemy’s body and deal (1) Damage per round (no armor reduction). Only through a successful Action roll on AGI+Dexterity (3) can someone extract the metal and stop the continuous damage. After the attack, the Apocalyptic is unarmed."
+    },
+    {
+      "name": "Ibis staff",
+      "handling": -2,
+      "distance": 2,
+      "damage": "F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Fragile",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 1,
+      "slots": 1,
+      "value": 220,
+      "resources": 0,
+      "cult": ["Apocalyptics"],
+      "description": "The Ibis staff is carried by African Ibis Apocalyptics as a rank symbol and is not suited for use as a weapon. The fine carvings and the carved Ibis head with the curved beak are fragile and break easily.",
+      "specialty": "The staff guarantees an Ibis safe conduct through Scourger lands."
+    },
+    {
+      "name": "Flyssa",
+      "handling": 0,
+      "distance": 1,
+      "damage": "7+F/3",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 2,
+      "value": 1600,
+      "resources": 3,
+      "cult": ["Apocalyptics"],
+      "description": "The flyssa is a wide-bladed sword with straight back. African Buzzards prefer it, and it is considered a symbol of high rank.",
+      "specialty": null
+    },
+    {
+      "name": "Warflail",
+      "handling": -1,
+      "distance": 2,
+      "damage": "2+F/2",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        },
+        {
+          "name": "Talisman",
+          "property": "+1D"
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 1,
+      "slots": 1,
+      "value": 30,
+      "resources": 1,
+      "cult": ["Anabaptists"],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Bidenhander",
+      "handling": -2,
+      "distance": 2,
+      "damage": "8+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Impact",
+          "property": "2T"
+        },
+        {
+          "name": "Special",
+          "property": null
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 2,
+      "slots": 2,
+      "value": 1400,
+      "resources": 2,
+      "cult": ["Anabaptists"],
+      "description": "While a hoe in the fist might conjure up the spirit of Rebus and warm the soul, the Orgiastics rather rely on 7 feet of forged and sharpened steel. Their Bidenhanders are enormous and hard to wield, absurd weapons for an absurd war. Some Bidenhanders have spring mechanics in the heft that make a hidden knife jump forth.",
+      "specialty": "“Impact (2T)” Quality. If the Orgiastic cannot control the weapon at once, he can swing out the knife and fight with it in the next Round (Using the Knife weapon profile). However, he must drop his Bidenhander."
+    },
+    {
+      "name": "Iron rod",
+      "handling": -2,
+      "distance": 1,
+      "damage": "4+F/2",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        },
+        {
+          "name": "Impact",
+          "property": "2T"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 1,
+      "value": 20,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Cutlass",
+      "handling": 0,
+      "distance": 1,
+      "damage": "4+F/3",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 2,
+      "slots": 1,
+      "value": 200,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Biface",
+      "handling": 0,
+      "distance": 1,
+      "damage": "1+F/2",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Smooth Running",
+          "property": "3T"
+        },
+        {
+          "name": "Fragile",
+          "property": null
+        },
+        { "name": "Brawl", "property": null }
+      ],
+      "encumbrance": 1,
+      "technology": 1,
+      "slots": 0,
+      "value": 5,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Combat knife",
+      "handling": 1,
+      "distance": 1,
+      "damage": "3+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Smooth Running",
+          "property": "2T"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 2,
+      "slots": 1,
+      "value": 450,
+      "resources": 2,
+      "cult": ["Scourgers"],
+      "description": "Combat knives of UEO or UAO stock are made from bygone steel alloys and are coveted melee weapons. The serrated edge of the blade is helpful in the wilderness and causes massive wounds. The crossguards of UEO combat knives have steel eyelets so they can be attached to most assault rifles as bayonets. UAO combat knives are also called Scourger Daggers and are given as honorary gifts by the Chaga to skilled fighters in his pack. On one side, the crossguard turns into a grip protector so the knife can also be used as a knuckleduster.",
+      "specialty": "An UEO combat knife can be used to tweak an assault rifle without using up slots. The rifle can then be used as a melee weapon with the damage being equal to that of the combat knife. UAO combat knives however can also be used as a knuckleduster. The stats are those of a common knuckleduster, but the weapon retains the combat knife‘s quality Smooth Running. The Scourger Dagger counts as a Cult object for Scourgers."
+    },
+    {
+      "name": "Chainsaw",
+      "handling": -2,
+      "distance": 1,
+      "damage": "8+F/2",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Out of Control",
+          "property": "2"
+        },
+        {
+          "name": "Terrifying",
+          "property": "3"
+        },
+        {
+          "name": "Special",
+          "property": null
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 4,
+      "slots": 1,
+      "value": 2300,
+      "resources": 3,
+      "cult": ["Scourgers"],
+      "description": "What it lacks in subtlety, the chainsaw makes up for in raw power. This Petro-guzzling saw is used in Africa for cutting through chunks of wood in the forests, but it will function just as well tearing through flesh and bone. It is unwieldy and poorly balanced for combat, but the terrifying sound of its engine revving up to speed and the brutal wounds it leaves in its targets makes it a Scourger’s delight, who will often use the chainsaw’s roar to instill fear in their opponents.",
+      "specialty": "The chainsaw’s tank holds 5 Liters of Petro, allowing it to run for 50 attacks. Without fuel, the weapon’s Damage decreases to 2+F/2, and it loses the Terrifying and Out of Control Qualities."
+    },
+    {
+      "name": "Machete",
+      "handling": 0,
+      "distance": 1,
+      "damage": "4+F/2",
+      "magazine": null,
+      "qualities": [{
+        "name": "Gruesome",
+        "property": "1"
+      }],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 1,
+      "value": 450,
+      "resources": 0,
+      "cult": [],
+      "description": "The machete is a brutal weapon designed to use the heavy mass of the blade alongside its wickedly sharp cutting edge to deliver some serious damage. The machete’s weight allows it to chop through dense underbrush or thick wooden trunks, making it a common sight in the jungles of Hybrispania or the swampy marshes of Franka.",
+      "specialty": null
+    },
+    {
+      "name": "Steel Rod",
+      "handling": 1,
+      "distance": 1,
+      "damage": "3+F/2",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 3,
+      "slots": 1,
+      "value": 250,
+      "resources": 2,
+      "cult": ["Chroniclers"],
+      "description": "These flexible metal rods are neither as clumsy nor as conspicuous as a club, but are just as effective. In addition to the standard varieties that Jurymen, Hellvetic sluice guards and other guard personnel regularly employ to maintain order, there is also a telescope variety. After loosening the locking mechanism, the rod itself can be collapsed into a small cylinder leaving it almost imperceptible.",
+      "specialty": "The telescope variety of the steel rod costs 300 CD and gets the Quality Camo (2D) as long as it is not extended. This variety also counts as a Cult object for Chroniclers (Shutters)."
+    },
+    {
+      "name": "Traqueur",
+      "handling": 0,
+      "distance": 2,
+      "damage": "3+F/3",
+      "magazine": null,
+      "qualities": [],
+      "encumbrance": 3,
+      "technology": 2,
+      "slots": 2,
+      "value": 200,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Walking staff",
+      "handling": 0,
+      "distance": 2,
+      "damage": "1+F/2",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 1,
+      "slots": 1,
+      "value": 30,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Pike",
+      "handling": -2,
+      "distance": 5,
+      "damage": "5+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Special",
+          "property": null
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 2,
+      "slots": 1,
+      "value": 250,
+      "resources": 0,
+      "cult": [],
+      "description": "The pike emerged as the Anabaptists’ response to the devastating horse charges utilized to great effect by their Jehammedan opponents in the Adriatic Lowlands. The long polearm is the height of two or three men, and requires both hands to wield, but this length allows it to reach riders mounted on tall horses. However, should an enemy be able to slip past the spearhead the length of the weapon becomes its biggest flaw unless the pike is dropped and the intruder dealt with by other means.",
+      "specialty": "The pike does additional Damage equal to the relative speed of a vehicle or horse to any passenger on the incoming mount hit by the pike, or to the mount itself. A further -3D Handling penalty applies to Combat rolls against targets within (3) meters."
+    },
+    {
+      "name": "Swordbreaker",
+      "handling": 1,
+      "distance": 1,
+      "damage": "3+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Special",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 3,
+      "slots": 0,
+      "value": 800,
+      "resources": 0,
+      "cult": [],
+      "description": "At first glance, this weapon appears to be nothing but an ornate dagger with intricate patterns along the blade. When activated, these elaborate designs are revealed to be two smaller blades pushed out by springs from the main blade, forming a fan of knives used to parry an opponent’s weapon. The swordbreaker is often used by duelists with a flair for the dramatic, or Apocalyptics attempting to disarm their enemies prior to capture and interrogation. The additional blades allow an assassin to cause extra harm, but the added weight and price of the weapon makes it an undesirable killing tool.",
+      "specialty": "The character gains +1D to BOD+Melee when parrying or disarming attackers. If succeeding in a BOD+Melee Active Defense against an opponent using a bladed weapon, the character can attempt to disarm his foe with the swordbreaker as an additional free Action."
+    },
+    {
+      "name": "Rapier",
+      "handling": 1,
+      "distance": 1,
+      "damage": "5+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Piercing",
+          "property": "2"
+        },
+        {
+          "name": "Smooth Running",
+          "property": "2T"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 1,
+      "value": 900,
+      "resources": 0,
+      "cult": [],
+      "description": "Rapiers are long bladed weapons designed to be only useful for stabbing and thrusting. Adopted primarily for decorative purposes as they hang from the hips of Neolibyan Great Hunters, Generals of the Resistance, or high-ranking nobility of Justitian’s Advocate houses, these weapons are more likely to have their blades chip than cause harm if used for slashing or cutting. In well trained hands their needle-sharp tips can still deliver deadly piercing jabs that find their way into the tiniest gaps in armor, and many a reckless warrior has met their deaths after underestimating one of these delicate weapons.",
+      "specialty": null
+    },
+    {
+      "name": "Lance",
+      "handling": 0,
+      "distance": 3,
+      "damage": "4+F/3",
+      "magazine": null,
+      "qualities": [
+        {
+          "name": "Special",
+          "property": null
+        }],
+      "encumbrance": 2,
+      "technology": 1,
+      "slots": 1,
+      "value": 100,
+      "resources": 0,
+      "cult": [],
+      "description": "Rapiers are long bladed weapons designed to be only useful for stabbing and thrusting. Adopted primarily for decorative purposes as they hang from the hips of Neolibyan Great Hunters, Generals of the Resistance, or high-ranking nobility of Justitian’s Advocate houses, these weapons are more likely to have their blades chip than cause harm if used for slashing or cutting. In well trained hands their needle-sharp tips can still deliver deadly piercing jabs that find their way into the tiniest gaps in armor, and many a reckless warrior has met their deataLances are rarely used as infantry weapons on the battlefield, but these long wooden spears make excellent weapons from horseback. Meant to be replaced relatively frequently on account of being easily shattered if used in full charge, the front lines of an Isaaki cavalry assault often bristle with lance-tips as they rush towards the enemy’s ranks.",
+      "specialty": "The lance’s Damage increases to (4) plus twice the relative speed level between the user and the target when used from a vehicle or horseback, but the user no longer applies their BOD+Force bonus. If the lance does (10) or more Damage in a single hit, it breaks."
+    }
+
+  ]
+}

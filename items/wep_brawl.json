@@ -1,0 +1,264 @@
+{
+    "weapon group": "Brawl",
+    "skill test": "BOD+Brawl",
+    "items": [
+        {
+            "name": "Bite",
+            "handling": -3,
+            "distance": 1,
+            "damage": "F/3",
+            "magazine": null,
+            "qualities": [],
+            "encumbrance": null,
+            "technology": 1,
+            "slots": null,
+            "value": null,
+            "resources": 0,
+            "cult": [],
+            "description": null,
+            "specialty":null
+        },
+        {
+            "name": "Kick",
+            "handling": 1,
+            "distance": 1,
+            "damage": null,
+            "magazine": null,
+            "qualities": [
+                {
+                    "name": "Dazed",
+                    "property": "F/2"
+                }
+            ],
+            "encumbrance": null,
+            "technology": 1,
+            "slots": null,
+            "value": null,
+            "resources": 0,
+            "cult": [],
+            "description": null,
+            "specialty":null
+        },
+        {
+            "name": "Blow",
+            "handling": 2,
+            "distance": 1,
+            "damage": null,
+            "magazine": null,
+            "qualities": [
+                {
+                    "name": "Dazed",
+                    "property": "F/3"
+                },
+                {
+                    "name": "Smooth Running",
+                    "property": "2T"
+                }
+            ],
+            "encumbrance": null,
+            "technology": 1,
+            "slots": null,
+            "value": null,
+            "resources": 0,
+            "cult": [],
+            "description": null,
+            "specialty":null
+        },
+        {
+            "name": "Push",
+            "handling": 0,
+            "distance": 1,
+            "damage": null,
+            "magazine": null,
+            "qualities": [
+                {
+                    "name": "Special",
+                    "property": null
+                }
+            ],
+            "encumbrance": null,
+            "technology": 1,
+            "slots": null,
+            "value": null,
+            "resources": 0,
+            "cult": [],
+            "description": "A push is a melee attack which deals no Damage, but instead allows a combatant to move his opponent a number of meters equal to the Triggers acquired on his Attack roll in any direction.",
+            "specialty":"If the attacker takes a run-up before his push, he adds a number of Triggers equal to half the Distance traveled in meters to his Attack roll. He cannot move more than his normal movement limit in a Round."
+        },
+        {
+            "name": "Grapple",
+            "handling": -4,
+            "distance": 1,
+            "damage": null,
+            "magazine": null,
+            "qualities": [
+                {
+                    "name": "Special",
+                    "property": null
+                }
+            ],
+            "encumbrance": null,
+            "technology": 1,
+            "slots": null,
+            "value": null,
+            "resources": 0,
+            "cult": [],
+            "description":"When attempting a grapple, the attacker rolls a normal attack with Handling -4D. If he succeeds, the Triggers on roll determine the number of Rounds his target is unable to act, trapped in a chokehold. If the attacker is able to surprise the target with a successful AGI+Stealth roll or a successful feint, the Handling penalty is reduced to -2D. After these Rounds are up, the target begins a Conflict of BOD+Force or BOD+Brawl against the attacker’s BOD+Brawl. The target loses F/3 Ego per Round of the grapple, until he either escapes or falls unconscious.",
+            "specialty":null
+        },
+        {
+            "name": "Brass Knuckles",
+            "handling": 2,
+            "distance": 1,
+            "damage": "1+F/2",
+            "magazine": null,
+            "qualities": [
+                {
+                    "name": "Blunt",
+                    "property": null
+                },
+                {
+                    "name": "Smooth Running",
+                    "property": "3T"
+                }
+            ],
+            "encumbrance": null,
+            "technology": 2,
+            "slots": 1,
+            "value": 10,
+            "resources": 0,
+            "cult": [],
+            "description":null,
+            "specialty":null
+        },
+        {
+            "name": "Streamer Glove",
+            "handling": 2,
+            "distance": 1,
+            "damage": null,
+            "magazine": 30,
+            "qualities": [
+                {
+                    "name": "Dazed",
+                    "property": 5
+                }
+            ],
+            "encumbrance": null,
+            "technology": 4,
+            "slots": 1,
+            "value": 4200,
+            "resources": 3,
+            "cult": [
+                "Chroniclers"
+            ],
+            "description":"Like the Draft Printer, the Streamer Glove has become a symbol of the Cult. A Chronicler’s raised little finger brings respect since everybody fears the painful discharges from the fingertip. This is essentially an insulated plastic glove with an electrode on the little finger. An E-Cube on the wrist fuels the device.",
+            "specialty":null
+        },
+        {
+            "name": "Blade Bracelet",
+            "handling": 2,
+            "distance": 1,
+            "damage": "2+F/2",
+            "magazine": null,
+            "qualities": [
+                {
+                    "name": "Smooth Running",
+                    "property": "2T"
+                },
+                {
+                    "name": "Camo",
+                    "property": "4S"
+                }
+            ],
+            "encumbrance": null,
+            "technology": 4,
+            "slots": 1,
+            "value": 40,
+            "resources": 1,
+            "cult": [
+                "Apocalyptics"
+            ],
+            "description":"Blade Bracelets are all the rage amongst Apocalyptics. The hand remains free, and bracelets with foldout blades are barely discernible from regular jewelry. Almost all Blade Bracelets are beautiful pieces: the best ones with the sharpest blades were fashioned by a Raven of the Carrion Birds over 200 years ago. Allegedly, the Mother of Ravens ate his heart when he looked at another woman.",
+            "specialty":"Blade Bracelets with retractable blades can only be recognized as a weapon by a roll on INS+Perception (4) (see “Camo” Quality). Blade Bracelets by the legendary Raven are even harder to spot—INS+Perception (6)—and deal (+1) Damage. They cannot be bought with Resources nor with Drafts. An Apocalyptic has to earn them."
+        },
+        {
+            "name": "Razor Gloves",
+            "handling": 1,
+            "distance": 1,
+            "damage": "2+F/3",
+            "magazine": null,
+            "qualities": [
+                {
+                    "name": "Dazed",
+                    "property": "F/4"
+                },
+                {
+                    "name": "Gruesome",
+                    "property": "1"
+                },
+                {
+                    "name": "Smooth Running",
+                    "property": "3T"
+                }
+            ],
+            "encumbrance": null,
+            "technology": 1,
+            "slots": 1,
+            "value": 50,
+            "resources": 0,
+            "cult": [],
+            "description":"The crowd cheers as the fighters enter the dug out pit, the upcoming fight generating more excitement than this small hamlet on the edge of the Protectorate has seen in ages. The opponents pace around each other briefly, before rushing in to meet at the center of the ring. The wet thud of sweat covered bodies slamming into one another fills the air: one of them recoils back with a scream, collapsing to the ground with a brutal gash exposing his flayed cheekbone. Shards of glass and razor wire stick from the gaping wound and the victor’s gloves glisten with blood.",
+            "specialty":null
+        },
+        {
+            "name": "Garotte",
+            "handling": -4,
+            "distance": 1,
+            "damage": "F/3",
+            "magazine": null,
+            "qualities": [
+                {
+                    "name": "Dazed",
+                    "property": "F/3"
+                },
+                {
+                    "name": "Special",
+                    "property": null
+                }
+            ],
+            "encumbrance": null,
+            "technology": 1,
+            "slots": null,
+            "value": 10,
+            "resources": 0,
+            "cult": [],
+            "description":"Any sufficiently long and supple material may be used as a garotte: a leather strap, the chain between two manacles, shoe laces, sinews, or cables ripped from a Chronicler’s suit. The weapon is used to strangle someone quietly, cutting off their air supply and blood circulation. The weapon is used as if making a grappling attack, however the target takes F/3 Damage per Round along with the Ego Damage from the chokehold.",
+            "specialty":null
+        },
+        {
+            "name": "Scindo",
+            "handling": 1,
+            "distance": 1,
+            "damage": "3+F/2",
+            "magazine": null,
+            "qualities": [
+                {
+                    "name": "Smooth Running",
+                    "property": "3T"
+                },
+                {
+                    "name": "Special",
+                    "property": null
+                }
+            ],
+            "encumbrance": 1,
+            "technology": 2,
+            "slots": null,
+            "value": 250,
+            "resources": 0,
+            "cult": [],
+            "description": "The Scindo is a full sleeve of metal plates, which are secured to the arm with straps. The end of this sleeve has a semicircular blade molded to it, allowing the user to deliver deadly, slashing blows with their punches. It is primarily used as a dueling weapon among the Romanos, who view the weapon with some sort of crude historical reverence. Due to the way the scindo is attached to the arm, it cannot be easily removed. It takes two full Actions to undo the straps and allow the weapon to fall to the ground. When the character uses BOD+Brawl to defend themselves against an incoming melee attack, they gain a bonus of +2D while wearing the weapon, and in addition it is impossible for a fighter using a Scindo to be disarmed.",
+            "specialty":null
+        }
+    ]
+}

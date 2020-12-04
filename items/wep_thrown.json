@@ -1,0 +1,181 @@
+{
+  "weapon group": "Thrown",
+  "skill test": "AGI+Projectiles",
+  "items": [
+    {
+      "name": "Stone",
+      "caliber": null,
+      "handling": 0,
+      "distance": [{ "effective": 5 }, { "far shot": 30 }],
+      "damage": "F/2",
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 1,
+      "slots": 0,
+      "value": 0,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Sling",
+      "caliber": null,
+      "handling": -1,
+      "distance": [{ "effective": 5 }, { "far shot": 15 }],
+      "damage": "2+F/3",
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Blunt",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 1,
+      "slots": 1,
+      "value": 5,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Bola",
+      "caliber": null,
+      "handling": -2,
+      "distance": [{ "effective": 3 }, { "far shot": 10 }],
+      "damage": "F/3",
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Entagled",
+          "property": "-3D"
+        },
+        {
+          "name": "Out of Control",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 1,
+      "slots": 0,
+      "value": 20,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Shuriken",
+      "caliber": null,
+      "handling": 0,
+      "distance": [{ "effective": 3 }, { "far shot": 10 }],
+      "damage": "2+F/2",
+      "magazine": 1,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 1,
+      "slots": 0,
+      "value": 20,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+        "name": "Net",
+        "caliber": null,
+        "handling": -2,
+        "distance": [{ "effective": 2 }, { "far shot": 5 }],
+        "damage": null,
+        "magazine": 1,
+        "qualities": [{
+            "name": "Entagled",
+            "property": "-5D"
+          }],
+        "encumbrance": 1,
+        "technology": 2,
+        "slots": 0,
+        "value": 30,
+        "resources": 0,
+        "cult": [],
+        "description": null,
+        "specialty": null
+      },
+      {
+        "name": "Throwing knife",
+        "caliber": null,
+        "handling": 0,
+        "distance": [{ "effective": 3 }, { "far shot": 10 }],
+        "damage": "3+F/3",
+        "magazine": 1,
+        "qualities": [],
+        "encumbrance": 1,
+        "technology": 2,
+        "slots": 1,
+        "value": 40,
+        "resources": 0,
+        "cult": [],
+        "description": null,
+        "specialty": null
+      },
+      {
+        "name": "Harpoon",
+        "caliber": null,
+        "handling": 0,
+        "distance": [{ "effective": 5 }, { "far shot": 15 }],
+        "damage": "F",
+        "magazine": 1,
+        "qualities": [],
+        "encumbrance": 2,
+        "technology": 2,
+        "slots": 1,
+        "value": 50,
+        "resources": 0,
+        "cult": [],
+        "description": null,
+        "specialty": null
+      },
+      {
+        "name": "Atlatl",
+        "caliber": null,
+        "handling": -1,
+        "distance": [{ "effective": 10 }, { "far shot": 30 }],
+        "damage": "3+F/2",
+        "magazine": 1,
+        "qualities": [],
+        "encumbrance": 2,
+        "technology": 1,
+        "slots": 1,
+        "value": 50,
+        "resources": 0,
+        "cult": [],
+        "description": null,
+        "specialty": null
+      },
+      {
+        "name": "Throwing axe",
+        "caliber": null,
+        "handling": 0,
+        "distance": [{ "effective": 3 }, { "far shot": 10 }],
+        "damage": "3+F/2",
+        "magazine": 1,
+        "qualities": [],
+        "encumbrance": 1,
+        "technology": 2,
+        "slots": 1,
+        "value": 50,
+        "resources": 0,
+        "cult": [],
+        "description": null,
+        "specialty": null
+      } 
+  ]
+}
