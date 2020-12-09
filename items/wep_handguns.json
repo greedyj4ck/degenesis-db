@@ -8,6 +8,7 @@
         "handling": 0,
         "distance": [{ "effective": 15 }, { "far shot": 60 }],
         "damage": "5",
+        "damageBonus":null,
         "magazine": 1,
         "qualities": [
             {

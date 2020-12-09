@@ -6,7 +6,8 @@
       "name": "Butt stock",
       "handling": 0,
       "distance": 1,
-      "damage": "F/3",
+      "damage": "0",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -27,7 +28,8 @@
       "name": "Flail",
       "handling": -1,
       "distance": 2,
-      "damage": "2+F/3",
+      "damage": "2",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -52,7 +54,8 @@
       "name": "Pitchfork",
       "handling": 0,
       "distance": 2,
-      "damage": "2+F/3",
+      "damage": "2",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -73,7 +76,8 @@
       "name": "Shard dagger",
       "handling": 0,
       "distance": 1,
-      "damage": "4+F/3",
+      "damage": "4",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -94,7 +98,8 @@
       "name": "Club",
       "handling": 0,
       "distance": 1,
-      "damage": "2+F/2",
+      "damage": "2",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [
         {
@@ -115,7 +120,8 @@
       "name": "Stiletto",
       "handling": 0,
       "distance": 1,
-      "damage": "2+F/3",
+      "damage": "2",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -136,7 +142,8 @@
       "name": "Grapple",
       "handling": -1,
       "distance": 3,
-      "damage": "2+F/3",
+      "damage": "2",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -157,7 +164,8 @@
       "name": "Chain of blades",
       "handling": -2,
       "distance": 3,
-      "damage": "3+F/3",
+      "damage": "3",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -178,7 +186,8 @@
       "name": "Knife",
       "handling": 1,
       "distance": 1,
-      "damage": "2+F/3",
+      "damage": "2",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -199,7 +208,8 @@
       "name": "Spade",
       "handling": 0,
       "distance": 1,
-      "damage": "3+F/3",
+      "damage": "3",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [],
       "encumbrance": 2,
@@ -215,7 +225,8 @@
       "name": "Hand Axe",
       "handling": 0,
       "distance": 1,
-      "damage": "4+F/3",
+      "damage": "4",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [],
       "encumbrance": 1,
@@ -231,7 +242,8 @@
       "name": "Spear",
       "handling": 0,
       "distance": 2,
-      "damage": "4+F/3",
+      "damage": "4",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [],
       "encumbrance": 2,
@@ -247,7 +259,8 @@
       "name": "Stone axe",
       "handling": -2,
       "distance": 1,
-      "damage": "3+F/2",
+      "damage": "3",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [
         {
@@ -268,7 +281,8 @@
       "name": "Sledgehammer",
       "handling": -2,
       "distance": 1,
-      "damage": "F",
+      "damage": "0",
+      "damageBonus":"F",
       "magazine": null,
       "qualities": [
         {
@@ -293,7 +307,8 @@
       "name": "Riding Pick",
       "handling": 0,
       "distance": 1,
-      "damage": "5+F/2",
+      "damage": "5",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [],
       "encumbrance": 1,
@@ -309,7 +324,8 @@
       "name": "Mace",
       "handling": 0,
       "distance": 1,
-      "damage": "4+F/2",
+      "damage": "4",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [
         {
@@ -330,7 +346,8 @@
       "name": "Morning Star",
       "handling": -1,
       "distance": 1,
-      "damage": "5+F/2",
+      "damage": "5",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [
         {
@@ -351,7 +368,8 @@
       "name": "Pickaxe",
       "handling": -3,
       "distance": 1,
-      "damage": "1+F",
+      "damage": "1",
+      "damageBonus":"F",
       "magazine": null,
       "qualities": [
         {
@@ -372,7 +390,8 @@
       "name": "Saber",
       "handling": 0,
       "distance": 1,
-      "damage": "6+F/3",
+      "damage": "6",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [],
       "encumbrance": 1,
@@ -388,7 +407,8 @@
       "name": "Sword",
       "handling": 0,
       "distance": 1,
-      "damage": "6+F/3",
+      "damage": "6",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [],
       "encumbrance": 2,
@@ -404,7 +424,8 @@
       "name": "Battle axe",
       "handling": -2,
       "distance": 2,
-      "damage": "6+F/2",
+      "damage": "6",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [
         {
@@ -425,7 +446,8 @@
       "name": "Splayer",
       "handling": -1,
       "distance": 2,
-      "damage": "4+F/3",
+      "damage": "4",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -447,7 +469,8 @@
       "name": "Surgical tools",
       "handling": 0,
       "distance": 1,
-      "damage": "3+F/3",
+      "damage": "3",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [],
       "encumbrance": 1,
@@ -464,6 +487,7 @@
       "handling": 0,
       "distance": 1,
       "damage": null,
+      "damageBonus":null,
       "magazine": null,
       "qualities": [
         {
@@ -488,7 +512,8 @@
       "name": "Preservalis Sword",
       "handling": 0,
       "distance": 1,
-      "damage": "7+F/2",
+      "damage": "7",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [],
       "encumbrance": 2,
@@ -525,7 +550,8 @@
       "name": "Judgment Hammer",
       "handling": -2,
       "distance": 1,
-      "damage": "1+F",
+      "damage": "1",
+      "damageBonus":"F",
       "magazine": null,
       "qualities": [
         {
@@ -550,7 +576,8 @@
       "name": "Crusher",
       "handling": -2,
       "distance": 1,
-      "damage": "2+F/2",
+      "damage": "2",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [
         {
@@ -571,7 +598,8 @@
       "name": "Iron Club of the Cockroach Kings",
       "handling": -3,
       "distance": 2,
-      "damage": "2+F",
+      "damage": "2",
+      "damageBonus":"F",
       "magazine": null,
       "qualities": [
         {
@@ -596,7 +624,8 @@
       "name": "Khopesh",
       "handling": 0,
       "distance": 1,
-      "damage": "6+F/2",
+      "damage": "6",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [
         {
@@ -617,7 +646,8 @@
       "name": "Ammit Sickle",
       "handling": 0,
       "distance": 1,
-      "damage": "7+F/2",
+      "damage": "7",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [
         {
@@ -638,7 +668,8 @@
       "name": "Curved dagger",
       "handling": 1,
       "distance": 1,
-      "damage": "2+F/3",
+      "damage": "2",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -659,7 +690,8 @@
       "name": "Ancestor spear",
       "handling": 0,
       "distance": 2,
-      "damage": "4+F/3",
+      "damage": "4",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -680,7 +712,8 @@
       "name": "Scourge",
       "handling": -2,
       "distance": 3,
-      "damage": "3+F/3",
+      "damage": "3",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -705,7 +738,8 @@
       "name": "Scimitar",
       "handling": 0,
       "distance": 1,
-      "damage": "6+F/3",
+      "damage": "6",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [],
       "encumbrance": 2,
@@ -721,7 +755,8 @@
       "name": "Ram staff",
       "handling": -2,
       "distance": 2,
-      "damage": "F/3",
+      "damage": "0",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -746,7 +781,8 @@
       "name": "Horn",
       "handling": 1,
       "distance": 1,
-      "damage": "9+F/3",
+      "damage": "9",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [],
       "encumbrance": 1,
@@ -762,7 +798,8 @@
       "name": "Damascene Saber",
       "handling": 0,
       "distance": 1,
-      "damage": "7+F/3",
+      "damage": "7",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [],
       "encumbrance": 2,
@@ -778,7 +815,8 @@
       "name": "Koumaya dagger",
       "handling": 1,
       "distance": 1,
-      "damage": "2+F/3",
+      "damage": "2",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [],
       "encumbrance": 1,
@@ -795,6 +833,7 @@
       "handling": 0,
       "distance": 1,
       "damage": null,
+      "damageBonus":null,
       "magazine": null,
       "qualities": [
         {
@@ -819,7 +858,8 @@
       "name": "Ibis staff",
       "handling": -2,
       "distance": 2,
-      "damage": "F/3",
+      "damage": "0",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -840,7 +880,8 @@
       "name": "Flyssa",
       "handling": 0,
       "distance": 1,
-      "damage": "7+F/3",
+      "damage": "7",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [],
       "encumbrance": 2,
@@ -856,7 +897,8 @@
       "name": "Warflail",
       "handling": -1,
       "distance": 2,
-      "damage": "2+F/2",
+      "damage": "2",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [
         {
@@ -881,7 +923,8 @@
       "name": "Bidenhander",
       "handling": -2,
       "distance": 2,
-      "damage": "8+F/3",
+      "damage": "8",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -906,7 +949,8 @@
       "name": "Iron rod",
       "handling": -2,
       "distance": 1,
-      "damage": "4+F/2",
+      "damage": "4",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [
         {
@@ -931,7 +975,8 @@
       "name": "Cutlass",
       "handling": 0,
       "distance": 1,
-      "damage": "4+F/3",
+      "damage": "4",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [],
       "encumbrance": 1,
@@ -947,7 +992,8 @@
       "name": "Biface",
       "handling": 0,
       "distance": 1,
-      "damage": "1+F/2",
+      "damage": "1",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [
         {
@@ -973,7 +1019,8 @@
       "name": "Combat knife",
       "handling": 1,
       "distance": 1,
-      "damage": "3+F/3",
+      "damage": "3",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -994,7 +1041,8 @@
       "name": "Chainsaw",
       "handling": -2,
       "distance": 1,
-      "damage": "8+F/2",
+      "damage": "8",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [
         {
@@ -1023,7 +1071,8 @@
       "name": "Machete",
       "handling": 0,
       "distance": 1,
-      "damage": "4+F/2",
+      "damage": "4",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [{
         "name": "Gruesome",
@@ -1042,7 +1091,8 @@
       "name": "Steel Rod",
       "handling": 1,
       "distance": 1,
-      "damage": "3+F/2",
+      "damage": "3",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [
         {
@@ -1063,7 +1113,8 @@
       "name": "Traqueur",
       "handling": 0,
       "distance": 2,
-      "damage": "3+F/3",
+      "damage": "3",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [],
       "encumbrance": 3,
@@ -1079,7 +1130,8 @@
       "name": "Walking staff",
       "handling": 0,
       "distance": 2,
-      "damage": "1+F/2",
+      "damage": "1",
+      "damageBonus":"F2",
       "magazine": null,
       "qualities": [
         {
@@ -1100,7 +1152,8 @@
       "name": "Pike",
       "handling": -2,
       "distance": 5,
-      "damage": "5+F/3",
+      "damage": "5",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -1121,7 +1174,8 @@
       "name": "Swordbreaker",
       "handling": 1,
       "distance": 1,
-      "damage": "3+F/3",
+      "damage": "3",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -1142,7 +1196,8 @@
       "name": "Rapier",
       "handling": 1,
       "distance": 1,
-      "damage": "5+F/3",
+      "damage": "5",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {
@@ -1167,7 +1222,8 @@
       "name": "Lance",
       "handling": 0,
       "distance": 3,
-      "damage": "4+F/3",
+      "damage": "4",
+      "damageBonus":"F3",
       "magazine": null,
       "qualities": [
         {

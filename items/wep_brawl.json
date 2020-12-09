@@ -6,7 +6,8 @@
             "name": "Bite",
             "handling": -3,
             "distance": 1,
-            "damage": "F/3",
+            "damage": "0",
+            "damageBonus":"F3",
             "magazine": null,
             "qualities": [],
             "encumbrance": null,
@@ -23,11 +24,12 @@
             "handling": 1,
             "distance": 1,
             "damage": null,
+            "damageBonus":null,
             "magazine": null,
             "qualities": [
                 {
                     "name": "Dazed",
-                    "property": "F/2"
+                    "property": "F2"
                 }
             ],
             "encumbrance": null,
@@ -44,11 +46,12 @@
             "handling": 2,
             "distance": 1,
             "damage": null,
+            "damageBonus":null,
             "magazine": null,
             "qualities": [
                 {
                     "name": "Dazed",
-                    "property": "F/3"
+                    "property": "F3"
                 },
                 {
                     "name": "Smooth Running",
@@ -69,6 +72,7 @@
             "handling": 0,
             "distance": 1,
             "damage": null,
+            "damageBonus":null,
             "magazine": null,
             "qualities": [
                 {
@@ -90,6 +94,7 @@
             "handling": -4,
             "distance": 1,
             "damage": null,
+            "damageBonus": null,
             "magazine": null,
             "qualities": [
                 {
@@ -110,7 +115,8 @@
             "name": "Brass Knuckles",
             "handling": 2,
             "distance": 1,
-            "damage": "1+F/2",
+            "damage": "1",
+            "damageBonus":"F2",
             "magazine": null,
             "qualities": [
                 {
@@ -136,6 +142,7 @@
             "handling": 2,
             "distance": 1,
             "damage": null,
+            "damageBonus":null,
             "magazine": 30,
             "qualities": [
                 {
@@ -158,7 +165,8 @@
             "name": "Blade Bracelet",
             "handling": 2,
             "distance": 1,
-            "damage": "2+F/2",
+            "damage": "2",
+            "damageBonus":"F2",
             "magazine": null,
             "qualities": [
                 {
@@ -185,12 +193,13 @@
             "name": "Razor Gloves",
             "handling": 1,
             "distance": 1,
-            "damage": "2+F/3",
+            "damage": "2",
+            "damageBonus":"F3",
             "magazine": null,
             "qualities": [
                 {
                     "name": "Dazed",
-                    "property": "F/4"
+                    "property": "F4"
                 },
                 {
                     "name": "Gruesome",
@@ -214,12 +223,13 @@
             "name": "Garotte",
             "handling": -4,
             "distance": 1,
-            "damage": "F/3",
+            "damage": "0",
+            "damageBonus":"F3",
             "magazine": null,
             "qualities": [
                 {
                     "name": "Dazed",
-                    "property": "F/3"
+                    "property": "F3"
                 },
                 {
                     "name": "Special",
@@ -239,7 +249,8 @@
             "name": "Scindo",
             "handling": 1,
             "distance": 1,
-            "damage": "3+F/2",
+            "damage": "3",
+            "damageBonus":"F2",
             "magazine": null,
             "qualities": [
                 {
