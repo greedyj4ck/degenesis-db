@@ -1,27 +1,423 @@
 {
-    "weapon group": "Handguns",
-    "skill test": "AGI+Projectiles",
-    "items": [
-      {
-        "name": "Signal Pistol",
-        "caliber": "Special",
-        "handling": 0,
-        "distance": [{ "effective": 15 }, { "far shot": 60 }],
-        "damage": "5",
-        "damageBonus":null,
-        "magazine": 1,
-        "qualities": [
-            {
-                "name": "Fire Hazardous",
-                "property": null
-              }
-        ],
-        "encumbrance": 1,
-        "technology": 4,
-        "slots": 2,
-        "value": 900,
-        "resources": 0,
-        "cult": [],
-        "description": null,
-        "specialty": null
-      }]}
+  "weapon group": "Handguns",
+  "skill test": "AGI+Projectiles",
+  "items": [
+    {
+      "name": "Signal Pistol",
+      "caliber": "Special",
+      "handling": 0,
+      "distance": [{ "effective": 15 }, { "far shot": 60 }],
+      "damage": "5",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Fire Hazardous",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 2,
+      "value": 900,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Pistol",
+      "caliber": "9mm",
+      "handling": 0,
+      "distance": [{ "effective": 10 }, { "far shot": 40 }],
+      "damage": "9",
+      "damageBonus": null,
+      "magazine": 12,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 3,
+      "slots": 1,
+      "value": 1200,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Revolver",
+      "caliber": ".44",
+      "handling": 0,
+      "distance": [{ "effective": 10 }, { "far shot": 40 }],
+      "damage": "10",
+      "damageBonus": null,
+      "magazine": 6,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 3,
+      "slots": 1,
+      "value": 1200,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Automatic Pistol",
+      "caliber": "4.6x30 mm",
+      "handling": 0,
+      "distance": [{ "effective": 10 }, { "far shot": 40 }],
+      "damage": "7",
+      "damageBonus": null,
+      "magazine": 20,
+      "qualities": [
+        {
+          "name": "Smooth Running",
+          "property": "3T"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 2,
+      "value": 2500,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Heavy Pistol",
+      "caliber": ".50 GL",
+      "handling": 0,
+      "distance": [{ "effective": 10 }, { "far shot": 40 }],
+      "damage": "12",
+      "damageBonus": null,
+      "magazine": 12,
+      "qualities": [
+        {
+          "name": "Thunder Strike",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 2,
+      "value": 2800,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Stubbed Trailblazer (FM)",
+      "caliber": "HF-full jacket",
+      "handling": 0,
+      "distance": [{ "effective": 15 }, { "far shot": 60 }],
+      "damage": "11",
+      "damageBonus": null,
+      "magazine": 20,
+      "qualities": [
+        {
+          "name": "Smooth Running",
+          "property": "2T"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 5,
+      "slots": 2,
+      "value": 14000,
+      "resources": 4,
+      "cult": ["Hellvetics"],
+      "description": "The Trailblazer is a Sagur-11 assault rifle with three 5.45 mm barrels. The ammunition can come from a magazine, but also from a bandolier. The butt stock can be turned into a bayonet, a combat knife, or a rifle bipod. In the Alpine Fortress, every weapon is regularly checked with the help of an interface to both control the ammunition use and cleaning cycles, and to correlate firing dates with mission dates. The Special Detachment also uses a lighter, stubbed variety of Trailblazers. Their range is much shorter, but due to their construction, they are perfectly suited for special missions indoors. They can be used with one hand.",
+      "specialty": null
+    },
+    {
+      "name": "Stubbed Trailblazer (HP)",
+      "caliber": "HF-hollow point",
+      "handling": 0,
+      "distance": [{ "effective": 15 }, { "far shot": 60 }],
+      "damage": "14",
+      "damageBonus": null,
+      "magazine": 20,
+      "qualities": [
+        {
+          "name": "Smooth Running",
+          "property": "2T"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 5,
+      "slots": 2,
+      "value": 14000,
+      "resources": 4,
+      "cult": ["Hellvetics"],
+      "description": "The Trailblazer is a Sagur-11 assault rifle with three 5.45 mm barrels. The ammunition can come from a magazine, but also from a bandolier. The butt stock can be turned into a bayonet, a combat knife, or a rifle bipod. In the Alpine Fortress, every weapon is regularly checked with the help of an interface to both control the ammunition use and cleaning cycles, and to correlate firing dates with mission dates. The Special Detachment also uses a lighter, stubbed variety of Trailblazers. Their range is much shorter, but due to their construction, they are perfectly suited for special missions indoors. They can be used with one hand.",
+      "specialty": null
+    },
+    {
+      "name": "Flintlock Pistol",
+      "caliber": "Lead bullets",
+      "handling": 0,
+      "distance": [{ "effective": 5 }, { "far shot": 20 }],
+      "damage": "8",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Muzzle Loader",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 3,
+      "slots": 1,
+      "value": 300,
+      "resources": 2,
+      "cult": ["Judges"],
+      "description": "The firing technology and design of the flintlock pistol are identical to its larger brother, the Judges’ musket. The range and penetration of the bullets are lower, but the smaller size makes up for that: when the musket is empty, the Judge drops it and pulls the flintlock pistol from his belt, then once that is fired he pulls out another.",
+      "specialty": "Judges can carry several pistols. As with the Judges’ musket, reloading takes 2 Actions."
+    },
+    {
+      "name": "Grinder",
+      "caliber": "Black powder",
+      "handling": 0,
+      "distance": [{ "effective": 5 }, { "far shot": 20 }],
+      "damage": "8",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Muzzle Loader",
+          "property": null
+        },
+        {
+          "name": "Scatter",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 3,
+      "slots": 2,
+      "value": 600,
+      "resources": 4,
+      "cult": ["Scrappers"],
+      "description": "The Grinder is a legendary kind of Marvel. The manufacturer Wismuth came up with a handheld shotgun with a crank grinder that ground screws and stones to ammo over 50 winters ago. A little scrap can be found anywhere if one cares to look. The shooter only has to add black powder.",
+      "specialty": "The Grinder’s ammunition causes terrible wounds but has a terrible penetration (for Armor rating (2+), Damage is halved)."
+    },
+    {
+      "name": "Submachine Gun",
+      "caliber": "4.6x30 mm",
+      "handling": 0,
+      "distance": [{ "effective": 10}, { "far shot": 40 }],
+      "damage": "7",
+      "damageBonus": null,
+      "magazine": 35,
+      "qualities": [
+        {
+          "name": "Smooth Running",
+          "property": "2T"
+        },
+        {
+          "name": "Salvoes",
+          "property": "3"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 2,
+      "value": 3500,
+      "resources": 3,
+      "cult": ["Paler"],
+      "description": "The original guardians of the Sleepers were equipped with muffled submachine guns, ideally suited for combat in the closed tunnel systems of the Dispensers. Now, centuries later, these weapons have been passed down to the Palers.",
+      "specialty": "Some submachine guns are equipped with a bayonet and can be used like a knife, although with the handling of a gun, not of a light melee weapon. The bayonet takes up 1 slot."
+    },
+    {
+      "name": "Derringer",
+      "caliber": ".357",
+      "handling": 0,
+      "distance": [{ "effective": 3}, { "far shot": 10 }],
+      "damage": "6",
+      "damageBonus": null,
+      "magazine": 2,
+      "qualities": [
+        {
+          "name": "Camo",
+          "property": "2C"
+        },
+        {
+          "name": "Double Barreled",
+          "property": null
+        }
+      ],
+      "encumbrance": 0,
+      "technology": 3,
+      "slots": 1,
+      "value": 800,
+      "resources": 0,
+      "cult": [],
+      "description": "A hidden weapon with a simple mechanism, a derringer can fit in a space as small as a pocket or even a piece of jewelry or another inconspicuous object, hidden in plain sight. When assembled, it offers a quick shot with two barrels: what it lacks in power it makes up for in stealth.",
+      "specialty": null
+    },
+    {
+      "name": "Resistance Revolver (shot)",
+      "caliber": ".410 shot",
+      "handling": 0,
+      "distance": [{ "effective": 10}, { "far shot": 20 }],
+      "damage": "7",
+      "damageBonus": null,
+      "magazine": 5,
+      "qualities": [
+        {
+          "name": "Scatter",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 3,
+      "slots": 2,
+      "value": 1000,
+      "resources": 0,
+      "cult": [],
+      "description": "The Resistance revolver hails from the depths of the Frankan swamp, where the freedom fighters of Franka use it as a last-ditch defense against the Pheromancers and their drones. The 5 cylinders of .410 shells allows them to pack an impressive amount of lethality into a relatively small package, especially when loaded with the shot that it is optimised for - even a drone under the sway of his Pheromancer lord can’t ignore his body being blasted apart with lead pellets at high speed.",
+      "specialty": null
+    },
+    {
+      "name": "Resistance Revolver (slug)",
+      "caliber": ".410 slug",
+      "handling": -1,
+      "distance": [{ "effective": 5}, { "far shot": 15 }],
+      "damage": "7",
+      "damageBonus": null,
+      "magazine": 5,
+      "qualities": [
+        {
+          "name": "Scatter",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 3,
+      "slots": 2,
+      "value": 1000,
+      "resources": 0,
+      "cult": [],
+      "description": "The Resistance revolver hails from the depths of the Frankan swamp, where the freedom fighters of Franka use it as a last-ditch defense against the Pheromancers and their drones. The 5 cylinders of .410 shells allows them to pack an impressive amount of lethality into a relatively small package, especially when loaded with the shot that it is optimised for - even a drone under the sway of his Pheromancer lord can’t ignore his body being blasted apart with lead pellets at high speed.",
+      "specialty": null
+    },
+    {
+      "name": "Raven's Sawnoff",
+      "caliber": "Caliber 12",
+      "handling": 1,
+      "distance": [{ "effective": 3}, { "far shot": 15 }],
+      "damage": "10",
+      "damageBonus": null,
+      "magazine": 2,
+      "qualities": [
+        {
+          "name": "Double Barreled",
+          "property": null
+        },
+        {
+          "name": "Scatter",
+          "property": null
+        },
+        {
+          "name": "Special",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 1,
+      "value": 1550,
+      "resources": 0,
+      "cult": [],
+      "description": "This shotgun has had its barrel sawn in half, or was designed with a short barrel in the first place, giving it a reduced range but also the ability to be carried and used more like a handgun than a traditional shotgun. They are traditionally kept by the Ravens of Apocalyptic Flocks, who engrave or decorate the weapons with symbols of their personal Tarot, often giving them names like Finchkiller, Birdshit, or Judgestopper. When two warring Flocks come to a truce, or one is forced to surrender, it is customary for the Raven of the weaker Flock to offer his sawnoff to the Raven of the stronger one as a tribute and mark of respect.",
+      "specialty": "When engraved with a Raven’s markings, gains the Quality Talisman (+2D), using up 1 slot."
+    },
+    {
+      "name": "Pepperbox (shot)",
+      "caliber": ".410 shot",
+      "handling": 0,
+      "distance": [{ "effective": 5}, { "far shot": 15 }],
+      "damage": "7",
+      "damageBonus": null,
+      "magazine": 4,
+      "qualities": [
+        {
+          "name": "Salvoes",
+          "property": "4"
+        },
+        {
+          "name": "Scatter",
+          "property": null
+        },
+        {
+          "name": "Single Loader",
+          "property": "2"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 3,
+      "slots": 1,
+      "value": 800,
+      "resources": 0,
+      "cult": [],
+      "description": "This simplistic firearm was designed by Scrappers unable to create a proper revolver mechanism, resembling a gun with four barrels stacked in a square. Instead of using a cylinder to bring a new bullet into alignment with the barrel, this weapon simply has four chambers with independent triggers. Easily reloaded by opening up the breech, the four triggers are close enough together that all barrels can be fired in quick succession. The pepperbox has found its way into the hands of many Apocalyptics and Clanners, who are able to recreate the weapon due to the simplicity of its design.",
+      "specialty": null
+    },
+    {
+      "name": "Pepperbox (slug)",
+      "caliber": ".410 slug",
+      "handling": 0,
+      "distance": [{ "effective": 10}, { "far shot": 20}],
+      "damage": "7",
+      "damageBonus": null,
+      "magazine": 4,
+      "qualities": [
+        {
+          "name": "Salvoes",
+          "property": "4"
+        },
+        {
+          "name": "Single Loader",
+          "property": "2"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 3,
+      "slots": 1,
+      "value": 800,
+      "resources": 0,
+      "cult": [],
+      "description": "This simplistic firearm was designed by Scrappers unable to create a proper revolver mechanism, resembling a gun with four barrels stacked in a square. Instead of using a cylinder to bring a new bullet into alignment with the barrel, this weapon simply has four chambers with independent triggers. Easily reloaded by opening up the breech, the four triggers are close enough together that all barrels can be fired in quick succession. The pepperbox has found its way into the hands of many Apocalyptics and Clanners, who are able to recreate the weapon due to the simplicity of its design.",
+      "specialty": null
+    },
+    {
+      "name": "Smartgun",
+      "caliber": "4.6x30 mm",
+      "handling": 2,
+      "distance": [{ "effective": 15}, { "far shot": 30 }],
+      "damage": "7",
+      "damageBonus": null,
+      "magazine": 20,
+      "qualities": [
+        {
+          "name": "Sensitive",
+          "property": null
+        },
+        {
+          "name": "Smooth Running",
+          "property": "1T"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 5,
+      "slots": 0,
+      "value": 40000,
+      "resources": 5,
+      "cult": ["Scourgers"],
+      "description": "Smartguns are the result of decades of Bygone weapons programs. Linked with a powerful recoil-compensation and targeting computer in the handle, they are able to lay down incredible volumes of accurate firepower in a very short time. Due to the computers being relatively prone to corrosion and damage, the only working models have to be salvaged from most secure and well preserved of the UAO caches hidden in the Psychovore belt.",
+      "specialty": null
+    }
+  ]
+}
