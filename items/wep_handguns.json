@@ -305,7 +305,7 @@
     },
     {
       "name": "Raven's Sawnoff",
-      "caliber": "Caliber 12",
+      "caliber": "Cal. 12",
       "handling": 1,
       "distance": [{ "effective": 3}, { "far shot": 15 }],
       "damage": "10",

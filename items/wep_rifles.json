@@ -1,22 +1,602 @@
 {
-    "weapon group": "Rifles",
-    "skill test": "AGI+Projectiles",
-    "items": [
+  "weapon group": "Rifles",
+  "skill test": "AGI+Projectiles",
+  "items": [
+    {
+      "name": "Hunting rifle",
+      "caliber": ".357",
+      "handling": 0,
+      "distance": [{ "effective": 30 }, { "far shot": 120 }],
+      "damage": "6",
+      "damageBonus": null,
+      "magazine": 4,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 2,
+      "value": 900,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Shotgun",
+      "caliber": "Cal. 12 Buckshot",
+      "handling": 0,
+      "distance": [{ "effective": 5 }, { "far shot": 20 }],
+      "damage": "10",
+      "damageBonus": null,
+      "magazine": 2,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 2,
+      "value": 1500,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Pumpgun",
+      "caliber": "Cal. 12",
+      "handling": 0,
+      "distance": [{ "effective": 5 }, { "far shot": 40 }],
+      "damage": "10",
+      "damageBonus": null,
+      "magazine": 4,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 2,
+      "value": 2000,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Sniper rifle",
+      "caliber": "5.56x45mm",
+      "handling": 0,
+      "distance": [{ "effective": 50 }, { "far shot": 400 }],
+      "damage": "11",
+      "damageBonus": null,
+      "magazine": 6,
+      "qualities": [
+        {
+          "name": "Sensitive",
+          "property": null
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 4,
+      "slots": 2,
+      "value": 4000,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Light MG",
+      "caliber": "5.56x45mm",
+      "handling": -1,
+      "distance": [{ "effective": 30 }, { "far shot": 80 }],
+      "damage": "11",
+      "damageBonus": null,
+      "magazine": "Belt",
+      "qualities": [
+        {
+          "name": "Salvoes",
+          "property": "4"
+        },
+        {
+          "name": "Jamming",
+          "property": null
+        }
+      ],
+      "encumbrance": 4,
+      "technology": 4,
+      "slots": 2,
+      "value": 5000,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Fungicide Rifle",
+      "caliber": "Cartridges",
+      "handling": 0,
+      "distance": [{ "effective": 2 }, { "far shot": 8 }],
+      "damage": "Special",
+      "damageBonus": null,
+      "magazine": "Special",
+      "qualities": [],
+      "encumbrance": 4,
+      "technology": 4,
+      "slots": 2,
+      "value": 2300,
+      "resources": 2,
+      "cult": ["Spitalians"],
+      "description": "The Spitalian Fungicide Rifle is similar to a flamethrower, but it can be loaded with various chemicals via cartridges or an external tank. Fungicides, pesticides, twocomponent incendiary chemicals, chemical agents: the Spitalians’ repertoire is impressive and universally bad for your health.",
+      "specialty": "In the rifle’s butt stock, an antidote can be stored for the user. The cartridges for Fungicide Rifles contain enough antidote for (10) uses."
+    },
+    {
+      "name": "Trailblazer (FM)",
+      "caliber": "HF-full jacket",
+      "handling": 0,
+      "distance": [{ "effective": 30 }, { "far shot": 120 }],
+      "damage": "11",
+      "damageBonus": null,
+      "magazine": 35,
+      "qualities": [
+        {
+          "name": "Smooth Running",
+          "property": "3T"
+        },
+        {
+          "name": "Salvoes",
+          "property": "3"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 2,
+      "value": 18000,
+      "resources": 0,
+      "cult": ["Hellvetics"],
+      "description": "The Trailblazer is a Sagur-11 assault rifle with three 5.45 mm barrels. The ammunition can come from a magazine, but also from a bandolier. The butt stock can be turned into a bayonet, a combat knife, or a rifle bipod. In the Alpine Fortress, every weapon is regularly checked with the help of an interface to both control the ammunition use and cleaning cycles, and to correlate firing dates with mission dates.",
+      "specialty": "A Trailblazer can be modded without using up slots. The bayonet can be quickly pulled from the butt stock and mounted to one of the barrels. Then the Trailblazer can be used as a melee weapon, using the same profile as a Stiletto The same is true for the rifle bipod. It is also pulled from the butt stock, swung out, and snapped into place under the barrels. The rifle can now be supported, which leads to +2D Handling if prone. The rifle bipod changes the balance, which causes -2D to Handling for firing when standing. When a Hellvetic rises through the ranks, he can reallocate his Trailblazer's slots: every soldier has their Trailblazer custom fit to them in the Alpine Fortress."
+    },
+    {
+      "name": "Trailblazer (HP)",
+      "caliber": "HF-hollow point",
+      "handling": 0,
+      "distance": [{ "effective": 30 }, { "far shot": 120 }],
+      "damage": "14",
+      "damageBonus": null,
+      "magazine": 35,
+      "qualities": [
+        {
+          "name": "Smooth Running",
+          "property": "3T"
+        },
+        {
+          "name": "Salvoes",
+          "property": "3"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 2,
+      "value": 18000,
+      "resources": 0,
+      "cult": ["Hellvetics"],
+      "description": "The Trailblazer is a Sagur-11 assault rifle with three 5.45 mm barrels. The ammunition can come from a magazine, but also from a bandolier. The butt stock can be turned into a bayonet, a combat knife, or a rifle bipod. In the Alpine Fortress, every weapon is regularly checked with the help of an interface to both control the ammunition use and cleaning cycles, and to correlate firing dates with mission dates.",
+      "specialty": "A Trailblazer can be modded without using up slots. The bayonet can be quickly pulled from the butt stock and mounted to one of the barrels. Then the Trailblazer can be used as a melee weapon, using the same profile as a Stiletto The same is true for the rifle bipod. It is also pulled from the butt stock, swung out, and snapped into place under the barrels. The rifle can now be supported, which leads to +2D Handling if prone. The rifle bipod changes the balance, which causes -2D to Handling for firing when standing. When a Hellvetic rises through the ranks, he can reallocate his Trailblazer's slots: every soldier has their Trailblazer custom fit to them in the Alpine Fortress."
+    },
+    {
+      "name": "Trailblazer (Buckshot)",
+      "caliber": "Buckshot",
+      "handling": 0,
+      "distance": [{ "effective": 10 }, { "far shot": 40 }],
+      "damage": "10",
+      "damageBonus": null,
+      "magazine": 3,
+      "qualities": [
+        {
+          "name": "Scatter",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 2,
+      "value": 18000,
+      "resources": 0,
+      "cult": ["Hellvetics"],
+      "description": "The Trailblazer is a Sagur-11 assault rifle with three 5.45 mm barrels. The ammunition can come from a magazine, but also from a bandolier. The butt stock can be turned into a bayonet, a combat knife, or a rifle bipod. In the Alpine Fortress, every weapon is regularly checked with the help of an interface to both control the ammunition use and cleaning cycles, and to correlate firing dates with mission dates.",
+      "specialty": "A Trailblazer can be modded without using up slots. The bayonet can be quickly pulled from the butt stock and mounted to one of the barrels. Then the Trailblazer can be used as a melee weapon, using the same profile as a Stiletto The same is true for the rifle bipod. It is also pulled from the butt stock, swung out, and snapped into place under the barrels. The rifle can now be supported, which leads to +2D Handling if prone. The rifle bipod changes the balance, which causes -2D to Handling for firing when standing. When a Hellvetic rises through the ranks, he can reallocate his Trailblazer's slots: every soldier has their Trailblazer custom fit to them in the Alpine Fortress."
+    },
+    {
+      "name": "Judges' musket",
+      "caliber": "Lead bullet",
+      "handling": 0,
+      "distance": [{ "effective": 10 }, { "far shot": 40 }],
+      "damage": "8",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Muzzle Loader",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 3,
+      "slots": 2,
+      "value": 900,
+      "resources": 2,
+      "cult": ["Judges"],
+      "description": "The muzzle loader made in Justitian’s factories by the Steel Masters is of a similar design to muskets from the Bygone 17th and 18th centuries. It is loaded with gunpowder and a lead bullet via the barrel, and then the load is compressed with a rod: the weapon can only shoot once before it needs to be reloaded. Every musket is adorned with standardized ornaments that show which Steel Master made it in which year. The hammer trap in the stock, which contains spare parts and maintenance material, is also standard.",
+      "specialty": "There are a few double-barreled muskets. Every barrel is fired by its own trigger. If both barrels are fired at once, the accuracy decreases by -2D, but the Damage is doubled. The loading of a Judges’ musket takes (2) Actions (per barrel)."
+    },
+    {
+      "name": "Marvel",
+      "caliber": "Lead bullet",
+      "handling": 0,
+      "distance": [{ "effective": 10 }, { "far shot": 40 }],
+      "damage": "8",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Muzzle Loader",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 3,
+      "slots": 6,
+      "value": 1400,
+      "resources": 1,
+      "cult": ["Scrappers"],
+      "description": "A Scrapper’s rifle is as unique as the man and his rune. Many dirt diggers are suspicious of any weapons salvaged from the ruins (after all, they were not able to save their owner) and screw and weld together their own rifles from whatever they find on their travels. The finished product is rarely beautiful, but always individual. All Marvels start as muzzle loaders and shoot gunpowder and lead bullets, but the user can change and modify the rifle to remove this limitation. Screwed-on blades or small daggers are common, though only as last-ditch security mechanisms.",
+      "specialty": "Marvel rifles have the highest number of slots."
+    },
+    {
+      "name": "Assault rifle",
+      "caliber": "5.56x45mm",
+      "handling": 0,
+      "distance": [{ "effective": 30 }, { "far shot": 120 }],
+      "damage": "11",
+      "damageBonus": null,
+      "magazine": 30,
+      "qualities": [
+        {
+          "name": "Salvoes",
+          "property": "3"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 1,
+      "value": 12000,
+      "resources": 2,
+      "cult": ["Scourgers"],
+      "description": "Those who have proven themselves worthy of the pack may sharpen their claws and carry a rifle. The weapons and the ammo come from UAO stock, partly salvaged from the jungle, but the majority are still in storage in the Bygone UAO barracks in Tunis, a city that is now occupied by rebellious slaves. Until now, the Scourgers have avoided the problem by looking for the weapons in forgotten fortresses—but they need a solution soon, and it is not going to be a peaceful one.",
+      "specialty": null
+    },
+    {
+      "name": "Hunting rifle (Neo.)",
+      "caliber": ".357",
+      "handling": 1,
+      "distance": [{ "effective": 30 }, { "far shot": 120 }],
+      "damage": "6",
+      "damageBonus": null,
+      "magazine": 4,
+      "qualities": [
+        {
+          "name": "Special",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 2,
+      "value": 1800,
+      "resources": 3,
+      "cult": ["Neolibyans"],
+      "description": "It is said that you can tell a Neolibyan’s wealth from his garb, the good teeth of his followers, and his rifle. The precision rifles fashioned in African workshops are beautifully crafted individual items, and their glory symbolizes their owner’s status. Some Neolibyans have their rifle bejeweled with gold and silver, while others prefer gemstones or ivory.",
+      "specialty": "Augmentation slots can be fitted with adornments for 10,000 Dinars each. Every adornment slot gives the Neolibyan +1D to social interaction with other Neolibyans."
+    },
+    {
+      "name": "Masterpiece rifle",
+      "caliber": ".50GL",
+      "handling": 2,
+      "distance": [{ "effective": 50 }, { "far shot": 400 }],
+      "damage": "12",
+      "damageBonus": null,
+      "magazine": 4,
+      "qualities": [
+        {
+          "name": "Thunder Strike",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 1,
+      "value": 14000,
+      "resources": 5,
+      "cult": ["Neolibyans"],
+      "description": "Only the Great Hunters may one day shoot at a Psychonaut with a Masterpiece Rifle. Every weapon is a beautiful piece crafted by a master smith over several months of work. They are simple in design and only adorned with a few silver inlays, yet still everyone recognizes the value of a Masterpiece Rifle, which is several times higher than even the most beautiful hunting rifle.",
+      "specialty": "Extremely valuable. Extreme quality."
+    },
+    {
+      "name": "Sagur-72",
+      "caliber": "5x30mm Caseless",
+      "handling": 2,
+      "distance": [{ "effective": 30 }, { "far shot": 120 }],
+      "damage": "8",
+      "damageBonus": null,
+      "magazine": 35,
+      "qualities": [
+        {
+          "name": "Smooth Running",
+          "property": "2T"
+        },
+        {
+          "name": "Salvoes",
+          "property": "3"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 5,
+      "slots": 0,
+      "value": 27000,
+      "resources": 0,
+      "cult": ["RG"],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Flechette rifle",
+      "caliber": "Flechettes",
+      "handling": 2,
+      "distance": [{ "effective": 30 }, { "far shot": 120 }],
+      "damage": "13",
+      "damageBonus": null,
+      "magazine": 60,
+      "qualities": [
+        {
+          "name": "Smooth Running",
+          "property": "1T"
+        },
+        {
+          "name": "Salvoes",
+          "property": "5"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 5,
+      "slots": 0,
+      "value": 32000,
+      "resources": 0,
+      "cult": ["RG"],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Soul burner",
+      "caliber": "E-Cube",
+      "handling": 2,
+      "distance": [{ "effective": 50 }, { "far shot": 400 }],
+      "damage": "16",
+      "damageBonus": null,
+      "magazine": 15,
+      "qualities": [
+        {
+          "name": "Biometrically Encoded",
+          "property": null
+        },
+        {
+          "name": "Fatal",
+          "property": null
+        },
+        {
+          "name": "Terrifying",
+          "property": "4"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 6,
+      "slots": 0,
+      "value": 56000,
+      "resources": 0,
+      "cult": ["Free Spirit"],
+      "description": "The beam burns brighter than the sun, cutting through steel and concrete, vaporising flesh and bones into a red mist. When it collapses, the air surges into the vacuum left behind with a thunderclap. The Soul Burner is a myth. Every sighting of the weapon is passed from generation to generation, increasing its legend. There is little actual data available. So far, three Marauders have potentially been identified as carrying a Soul Burner. Chroniclers were able to identify one of them as Gusev from the reports, but the others are a mystery. It remains unclear whether several copies of the weapon exist or whether the Soul Burner is a one-of-a-kind weapon.",
+      "specialty": "According to Cluster information, the Soul Burner is biometrically encoded—only people with a certain genetic or nanotechnological imprint can activate and fire it."
+    },
+    {
+      "name": "Sawed-Off-Shotgun",
+      "caliber": "Cal. 12 Buckshot",
+      "handling": 0,
+      "distance": [{ "effective": 5 }, { "far shot": 10 }],
+      "damage": "10",
+      "damageBonus": null,
+      "magazine": 2,
+      "qualities": [
+        {
+          "name": "Scatter",
+          "property": null
+        },
+        {
+          "name": "Double Barreled",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 2,
+      "value": 1600,
+      "resources": 0,
+      "cult": [],
+      "description": "Precise sawing and good tools are necessary to shorten a shotgun without ruining the barrels (AGI+Crafting (4)). Afterwards, the rifle can be easily hidden under a coat or a wide jacket, which normally wouldn‘t be possible.",
+      "specialty": "In some cases, the butt of the shotgun is also turned into a pistol grip (uses up 1 Slot). Such a weapon costs 200 CD more, but gets +1D manageability."
+    },
+    {
+      "name": "Heavy Duty Gatling",
+      "caliber": "5.56x45mm",
+      "handling": -2,
+      "distance": [{ "effective": 50 }, { "far shot": 200 }],
+      "damage": "12",
+      "damageBonus": null,
+      "magazine": "Belt",
+      "qualities": [
+        {
+          "name": "Salvoes",
+          "property": "15"
+        }
+      ],
+      "encumbrance": 7,
+      "technology": 4,
+      "slots": 2,
+      "value": 12000,
+      "resources": 5,
+      "cult": ["Hellvetics"],
+      "description": "This model is only handed out for special ops missions. Since the Gatling principle prevents overheating, this weapon‘ s firepower is legendary, but the consumption of ammunition is far too high for common missions. Any Fourier will start sweating bullets when he has to hand out an ammunition container with 6.000 rounds.",
+      "specialty": "The Heavy Duty Gatling with its ammunition container uses up 3 Slots. If mounted, the handling penalty of -2D is neutralized by the stabilizers.."
+    },
+    {
+      "name": "Reapiting Air Rifle",
+      "caliber": "Lead bullet",
+      "handling": 0,
+      "distance": [{ "effective": 30 }, { "far shot": 80 }],
+      "damage": "7",
+      "damageBonus": null,
+      "magazine": 20,
+      "qualities": [
+        {
+          "name": "Extended Reload",
+          "property": "1H"
+        },
+        {
+          "name": "Sensitive",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 3,
+      "slots": 1,
+      "value": 3000,
+      "resources": 0,
+      "cult": [],
+      "description": "The repeating air rifle is made of salvaged components put together in a delicate balance, but it is still used by Scrappers and Clanners throughout the Protectorate and beyond due to its simple manufacture and the lack of gunpowder or other propellant necessary, instead firing its bullets with compressed air. As such, it is almost completely silent when shot. These rifles feature an internal air reservoir and a magazine capable of holding several bullets. Reloads are an issue however, as it takes a full hour to pressurize the reservoir and refill the magazine.",
+      "specialty": null
+    },
+    {
+      "name": "Fragger",
+      "caliber": "Fragger Round",
+      "handling": 0,
+      "distance": [{ "effective": 50 }, { "far shot": 400 }],
+      "damage": "14",
+      "damageBonus": null,
+      "magazine": 20,
+      "qualities": [
+        {
+          "name": "Gruesome",
+          "property": "1"
+        },
+        {
+          "name": "Piercing",
+          "property": "2"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 5,
+      "slots": 0,
+      "value": 30000,
+      "resources": 0,
+      "cult": [],
+      "description": "A general term for a family of pre-Eshaton rifles firing a small-caliber detonating munition, the Fragger is an early generation smartgun. Fraggers are often found completely by accident, as despite the advanced interface systems contained within the weapon, from the outside they appear completely indistinguishable from any other rifle. Instead, the projectiles themselves are the element that differs. They have infrared and range-finding sensors capable of microsecond-scale updates, scanning for body heat. If the temperature of the target is above or below that of the human body, the projectile remains solid to punch through the armor or surface. On the other hand, if the temperature is within a few degrees of a person’s average body temperature, then the Fragger round breaks apart with a crack, and the resulting shrapnel enters the body. The damage dealt in this way is devastating, as the projectile is designed to shatter into about a dozen tiny, razor sharp shards.",
+      "specialty": null
+    },
+    {
+      "name": "Pipe Rifle",
+      "caliber": ".357",
+      "handling": 0,
+      "distance": [{ "effective": 20 }, { "far shot": 80 }],
+      "damage": "6",
+      "damageBonus": null,
+      "magazine": 8,
+      "qualities": [
+        {
+          "name": "Single Loader",
+          "property": "2"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 3,
+      "slots": 2,
+      "value": 4000,
+      "resources": 0,
+      "cult": [],
+      "description": "A bizarre looking firearm relying entirely on pump action, this gun appears to have no external trigger mechanism at all, instead having a long slide along its barrel and a revolver- style cylinder in its receiver. When the slide is pulled back, the empty casing in the bottom of the cylinder is ejected, and the firing pin is dropped to fire the round in the top chamber. The forward motion rotates the cylinder, moving from the spent round to a new cartridge.",
+      "specialty": null
+    },
+    {
+      "name": "Military Carbine",
+      "caliber": "5.56x45mm",
+      "handling": 0,
+      "distance": [{ "effective": 25 }, { "far shot": 80 }],
+      "damage": "11",
+      "damageBonus": null,
+      "magazine": 15,
+      "qualities": [
+        {
+          "name": "Salvoes",
+          "property": "2"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 2,
+      "value": 8000,
+      "resources": 4,
+      "cult": ["Palers"],
+      "description": "Carbines are more compact than full assault rifles, losing much of their long-range effectiveness in favor of being easier to wield and operate in small spaces. Most of these carbines were left hidden in the armories of the Recombination Group’s bunkers, sealed away behind locking systems that kept the weapons stored in pristine condition until the bunker’s occupants were able to achieve a high enough state of devotion to their sleeping gods, or otherwise crack the codes of their prisons.",
+      "specialty": null
+    },
+    {
+      "name": "Battle Rifle",
+      "caliber": "7.62",
+      "handling": 0,
+      "distance": [{ "effective": 40 }, { "far shot": 200 }],
+      "damage": "13",
+      "damageBonus": null,
+      "magazine": 20,
+      "qualities": [],
+      "encumbrance": 3,
+      "technology": 4,
+      "slots": 2,
+      "value": 9000,
+      "resources": 0,
+      "cult": [],
+      "description": "The battle rifle is a weapon based on a frame similar to that of the Sagur 11 rifles used by the Swiss army, which became the Hellvetic Trailblazers, but it is far easier to operate by virtue of firing the much more common - although still exceedingly rare - 7.62 round. The powerful cartridge allows the rifle to dig into heavily armored targets, but it lacks the ability of the Hellvetic rifles to lay down a devastating carpet of bullets.",
+      "specialty": null
+    }
+    {
+      "name": "Riot Shotgun",
+      "caliber": "Cal. 12",
+      "handling": 0,
+      "distance": [{ "effective": 5 }, { "far shot": 20 }],
+      "damage": "10",
+      "damageBonus": null,
+      "magazine": 8,
+      "qualities": [{
+        "name": "Jamming",
+        "property": null
+      },
       {
-        "name": "Hunting rifle",
-        "caliber": ".357",
-        "handling": 0,
-        "distance": [{ "effective": 30 }, { "far shot": 120 }],
-        "damage": "6",
-        "damageBonus":null,
-        "magazine": 4,
-        "qualities": [],
-        "encumbrance": 2,
-        "technology": 4,
-        "slots": 2,
-        "value": 900,
-        "resources": 0,
-        "cult": [],
-        "description": null,
-        "specialty": null
-      }]}
+        "name": "Scatter",
+        "property": null
+      },
+      {
+        "name": "Single Loader",
+        "property": "3"
+      }],
+      "encumbrance": 3,
+      "technology": 4,
+      "slots": 2,
+      "value": 4500,
+      "resources": 0,
+      "cult": [],
+      "description": "A merciless weapon associated with the most brutal factions of the world, especially the Scourgers and more vicious Clanners of Europe, riot shotguns merge power and fire rate into a lethal combination. They may be expensive and unwieldy, but they make murderous weapons when loaded with their cheap ammunition. Riot shotguns are semi automatic, but perform poorly with the handcrafted shells available in most places and often misfire or jam.",
+      "specialty": null
+    }
+  ]
+}
