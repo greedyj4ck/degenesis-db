@@ -11,6 +11,7 @@ This repository is a database in **JSON** format (for Degenesis Foundry VTT impl
 - [x] Projectiles weapons
 - [x] Handguns
 - [x] Rifles
+- [x] Heavy weapons
 
 ## Community
 Be a part of our community :) Join us at Discord https://discord.gg/degenesis

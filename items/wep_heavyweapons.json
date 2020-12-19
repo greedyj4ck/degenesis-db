@@ -1,27 +1,369 @@
 {
-    "weapon group": "Heavy Weapons",
-    "skill test": "AGI+Projectiles",
-    "items": [
-      {
-        "name": "Grenade launcher",
-        "caliber": "Grenades",
-        "handling": -2,
-        "distance": [{ "effective": 20 }, { "far shot": 60 }],
-        "damage": "Special",
-        "damageBonus":null,
-        "magazine": 1,
-        "qualities": [
-            {
-                "name": "Deviation",
-                "property": null
-              }
-        ],
-        "encumbrance": 2,
-        "technology": 4,
-        "slots": 2,
-        "value": 1900,
-        "resources": 0,
-        "cult": [],
-        "description": null,
-        "specialty": null
-      }]}
+  "weapon group": "Heavy Weapons",
+  "skill test": "AGI+Projectiles",
+  "items": [
+    {
+      "name": "Grenade launcher",
+      "caliber": "Grenades",
+      "handling": -2,
+      "distance": [{ "effective": 20 }, { "far shot": 60 }],
+      "damage": "Special",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Deviation",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 2,
+      "value": 1900,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Rocket launcher",
+      "caliber": "Missle",
+      "handling": -2,
+      "distance": [{ "effective": 20 }, { "far shot": 60 }],
+      "damage": "15",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Armor Piercing",
+          "property": null
+        },
+        {
+          "name": "Explosive",
+          "property": null
+        }
+      ],
+      "encumbrance": 4,
+      "technology": 4,
+      "slots": 2,
+      "value": 4200,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Heavy MG",
+      "caliber": "5.56x45mm",
+      "handling": -2,
+      "distance": [{ "effective": 50 }, { "far shot": 200 }],
+      "damage": "11",
+      "damageBonus": null,
+      "magazine": "Belt",
+      "qualities": [
+        {
+          "name": "Salvoes",
+          "property": "10"
+        },
+        {
+          "name": "Jamming",
+          "property": null
+        }
+      ],
+      "encumbrance": 6,
+      "technology": 4,
+      "slots": 2,
+      "value": 8000,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Heavy MG",
+      "caliber": "5.56x45mm",
+      "handling": -2,
+      "distance": [{ "effective": 50 }, { "far shot": 200 }],
+      "damage": "11",
+      "damageBonus": null,
+      "magazine": "Belt",
+      "qualities": [
+        {
+          "name": "Salvoes",
+          "property": "10"
+        },
+        {
+          "name": "Jamming",
+          "property": null
+        }
+      ],
+      "encumbrance": 6,
+      "technology": 4,
+      "slots": 2,
+      "value": 8000,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Cartridge launcher",
+      "caliber": "Cartridges",
+      "handling": -2,
+      "distance": [{ "effective": 20 }, { "far shot": 60 }],
+      "damage": "Special",
+      "damageBonus": null,
+      "magazine": "4",
+      "qualities": [
+        {
+          "name": "Deviation",
+          "property": null
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 4,
+      "slots": 2,
+      "value": 2800,
+      "resources": 3,
+      "cult": ["Spitalians"],
+      "description": "The Fungicide Rifle shoots its load over a short distance of a few steps. The grenades launched by the Cartridge Launcher have a far wider range and unload the same agents in a radius of several steps.",
+      "specialty": "Grenades bounce, roll, and generally never land where the shooter wants them to, which gives them the Quality “Deviation”. The grenades from the Cartridge Launcher can also be used as hand grenades or timed or pressure-sensitive mines by simply exchanging the detonator. Cartridges for the Cartridge Launcher and Fungicide Rifle are specially designed for each and cannot be mixed."
+    },
+    {
+      "name": "Pneumo Hammer",
+      "caliber": "Bolt / Coal",
+      "handling": -2,
+      "distance": [{ "effective": 10 }, { "far shot": 30 }],
+      "damage": "10",
+      "damageBonus": null,
+      "magazine": "12",
+      "qualities": [
+        {
+          "name": "Thunder Strike",
+          "property": null
+        },
+        {
+          "name": "Special",
+          "property": null
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 3,
+      "slots": 2,
+      "value": 1500,
+      "resources": 0,
+      "cult": ["Clanners"],
+      "description": "The Mechans from the Ramein region once developed a pneumatic bolt gun using the papers left behind by their legendary founding father, the Mechanist. Years later, it became known as the Pneumo Hammer. Its bearers founded their own warrior caste: the Pneumancers. The weapon is heated with coal until the water in the boarding tank is hot enough to generate enough pressure. A valve system directs the steam to the barrels one after another, firing the bolts and reloading at the same time.",
+      "specialty": "Pneumo Hammers need a little over 5 minutes to reach their working temperature and become usable. They can also be used as bombs: if all the valves are closed, pressure and temperature rise until a thundering detonation tears apart the cast iron. The Damage of this steam explosion is (12)"
+    },
+    {
+      "name": "Spitfire",
+      "caliber": "Petro",
+      "handling": -2,
+      "distance": [{ "effective": 3 }, { "far shot": 10 }],
+      "damage": "12",
+      "damageBonus": null,
+      "magazine": "15",
+      "qualities": [
+        {
+          "name": "Fire Hazardous",
+          "property": null
+        },
+        {
+          "name": "Special",
+          "property": null
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 3,
+      "slots": 2,
+      "value": 3800,
+      "resources": 3,
+      "cult": ["Anabaptists"],
+      "description": "Spore clouds and the plagues of the Aberrant cannot be fought with a sword. A burst of fire from a Spitfire, though, reduces them all to just ashes in the wind. The Ascetics may baptize the dry soil with water, but the Orgiastics baptize their enemies with fire.",
+      "specialty": "A Spitfire is an awe-inspiring weapon, but it has a weakness: the tank is under pressure, and an aimed shot (Difficulty +2) dealing at least (4) Damage tears a hole into it. Gas leaks out and it depressurizes. Either from the Spitfire’s own ignition flame or from a rifle heated up from firing, the gas ignites, the air burns, and the tank explodes. An Orgiastic who notices that his Spitfire was damaged has 1D Rounds of time before the tank on his back goes up. The Game Master rolls for the time but doesn’t tell the Player. The Orgiastic can drop the Spitfire and tank and flee. The detonation Damage is (14) points."
+    },
+    {
+      "name": "Anti-Matériel Rifle",
+      "caliber": "14mm",
+      "handling": -1,
+      "distance": [{ "effective": 50 }, { "far shot": 500 }],
+      "damage": "15",
+      "damageBonus": null,
+      "magazine": "5",
+      "qualities": [
+        {
+          "name": "Piercing",
+          "property": "4"
+        },
+        {
+          "name": "Sensitive",
+          "property": null
+        },
+        {
+          "name": "Thunder Strike",
+          "property": null
+        }
+      ],
+      "encumbrance": 5,
+      "technology": 4,
+      "slots": 2,
+      "value": 7500,
+      "resources": 0,
+      "cult": [],
+      "description": "A gargantuan rifle that often takes a team of two to carry, anti-matériel rifles are a rare sight in modern times: passed down from the City Wars, their original purpose has been obscured by history. Few living beings would survive a hit from a rifle of such magnitude, with the Surge Tanks being perhaps the only man-made reason such a weapon would ever be useful. Nowadays only a handful of these weapons are known to exist, traded by Exalters on the Black Markets of Liqua. Neolibyans consider them prized tools for the hunt of the most dangerous game out in the wastelands: Biokinetics.",
+      "specialty": null
+    },
+    {
+      "name": "Steam Cannon",
+      "caliber": "Steam / Coal (10kg)",
+      "handling": -1,
+      "distance": [{ "effective": 10 }, { "far shot": 10 }],
+      "damage": "12",
+      "damageBonus": null,
+      "magazine": "4",
+      "qualities": [
+        {
+          "name": "Panic",
+          "property": "3"
+        },
+        {
+          "name": "Area Damage",
+          "property": "35"
+        },
+        {
+          "name": "Special",
+          "property": null
+        }
+      ],
+      "encumbrance": 4,
+      "technology": 3,
+      "slots": 1,
+      "value": 25000,
+      "resources": 4,
+      "cult": ["Pneumancers"],
+      "description": "The two massive boilers mounted on his back hiss, heat and steam building up inside them. A heavy metal pipe runs down from each, on the verge of burning an imprint into the Pneumancer’s skin, leading to the pressure tank resting in the crook of his back. The warrior lifts the barrel of the cannon, steam from leaking through the seams and singing its gunner, but he ignores the pain as he aims his steam cannon at his enemies. He opens the valve attached to the cannon’s handle, and the burning gas surges forwards, mixing with screams as the hot steam breaches even the tiniest openings in armor to scorch the skin beneath.",
+      "specialty": "After every discharge, the weapon requires (1) Round to build up steam pressure, while charging it cannot be fired. Only armor with the Fire Resistant Quality can reduce the Damage of a steam cannon."
+    },
+    {
+      "name": "Denier",
+      "caliber": "E-Cube x3",
+      "handling": 0,
+      "distance": [{ "effective": 80 }, { "far shot": 80 }],
+      "damage": "4",
+      "damageBonus": null,
+      "magazine": "8",
+      "qualities": [
+        {
+          "name": "Area Damage",
+          "property": "90"
+        },
+        {
+          "name": "Dazed",
+          "property": "12"
+        },
+        {
+          "name": "Piercing",
+          "property": "10"
+        },
+        {
+          "name": "Panic",
+          "property": "4"
+        }
+      ],
+      "encumbrance": 4,
+      "technology": 5,
+      "slots": 0,
+      "value": 24000,
+      "resources": 5,
+      "cult": ["Palers", "RG"],
+      "description": "This strange looking weapon appears to be a boxy, rifle- like frame wrapped with wiring. The large button on its grip causes a microwave pulse to fire out in a wide arc, emanating from the resonant cavity at the tip of its barrel. Those who stand in the path of its impulse feel their bodies heating up from the inside. While the effect is non-lethal it still causes the afflicted to feel an incredibly overwhelming sensation. Palers have taken to using Deniers targeting their biggest competition, the Chroniclers, as not even the most advanced armors the techno- freaks can muster the will to resist the weapon’s microwave pulses.",
+      "specialty": null
+    },
+    {
+      "name": "Rotary Gun",
+      "caliber": ".410 slug",
+      "handling": 0,
+      "distance": [{ "effective": 25 }, { "far shot": 75 }],
+      "damage": "7",
+      "damageBonus": null,
+      "magazine": "200",
+      "qualities": [
+        {
+          "name": "Salvoes",
+          "property": "2"
+        },
+        {
+          "name": "Smooth Running",
+          "property": "2T"
+        },
+        {
+          "name": "Special",
+          "property": null
+        }
+      ],
+      "encumbrance": 7,
+      "technology": 3,
+      "slots": 1,
+      "value": 4000,
+      "resources": 4,
+      "cult": ["Judges"],
+      "description": "This prototype field gun designed by the Steel Masters is a rare act of creativity. As a crank operated heavy weapon it fires at a high rate without requiring the complex machinery and actions of other, more advanced machine guns. However, this comes at the cost of its weight: the many barrels of the weapon make it impossible to use unless deployed. Rotary guns are an unusual sight, the Steel Masters being unable to mass-produce a weapon so far from the standard muskets of the Judiciary. But the weapon has found success on the borderline of the Protectorate in the contested city of Siege. Firing on the attacking Clanners, the unrelenting hail of bullets and the carpet of bodies left in the aftermath have proven its effectiveness many times over.",
+      "specialty": "The rotary gun has long barrels, and cannot fire .410 shot. It cannot be fired until an Action is spent to deploy it, and it cannot be moved after being deployed until an Action is spent to prepare it to move."
+    },
+    {
+      "name": "Marker Launcher",
+      "caliber": "Cartridges",
+      "handling": -2,
+      "distance": [{ "effective": 15}, { "far shot": 45 }],
+      "damage": "Special",
+      "damageBonus": null,
+      "magazine": "1",
+      "qualities": [
+        {
+          "name": "Deviation",
+          "property": null
+        },
+        {
+          "name": "Muzzle Loader",
+          "property": null
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 0,
+      "value": 1500,
+      "resources": 2,
+      "cult": ["Spitalians"],
+      "description": "The Spitalians venturing deep into the swamps of Franka needed a way to distract the drones swarming the region, but adding additional and bulky equipment to their equipment would impede their progress through these boglands. Instead, the Spital developed a Splayer tip which allows Famulancers to launch a Pheromone marker cartridge much farther than they would be able to throw it. The Marker Launcher is a Splayer tip that launches a single cartridge at the press of a button near its handle. The launcher is typically used in conjunction with Pheromone marker cartridges, but any other agent can be deployed in this fashion. After each shot, a new cartridge must be fed into the barrel of the launcherr: a cumbersome process given the length of the Splayer.",
+      "specialty": null
+    },
+    {
+      "name": "Nullpelia's Toll",
+      "caliber": "Coal (160kg)",
+      "handling": 0,
+      "distance": [{ "effective": 1 }, { "far shot": 1}],
+      "damage": "40",
+      "damageBonus": null,
+      "magazine": "1",
+      "qualities": [
+        {
+          "name": "INT+Engineering",
+          "property": "4"
+        },
+        {
+          "name": "Fires automatically after (x) hours",
+          "property": "5"
+        }
+      ],
+      "encumbrance": 1000,
+      "technology": 3,
+      "slots": 2,
+      "value": 80000,
+      "resources": 6,
+      "cult": ["Pneumancers"],
+      "description": "Nullpellia’s Toll is a colossal siege engine carefully maintained by the Pneumancers from the days of the Mechanist himself. Built around a massive furnace hungrily devouring coal, a steam engine drives a piston over half a meter in diameter. The weapon is so massive that it requires a team of Pneumancers to move it on its wheeled mount when it is ready to fire.The heavy furnace needs (5) hours to reach the adequate pressure, after which the machine will fire on its own. This is why the Pneumancers have to precisely time the moment they move it against the surface they need to destroy. Once the pressure valves are opened, the reinforced steel end is set free and pushed by all of the energy accumulated in a devastating and focused blow. Due to the engine’s history, and the planning required to effectively utilise it, it is often left lifeless in Nullpellia’s grand halls, a monument to the heritage of the great city.",
+      "specialty": null
+    }
+  ]
+}
