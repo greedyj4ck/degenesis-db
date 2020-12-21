@@ -22,7 +22,7 @@
     },
     {
       "name": "Shotgun",
-      "caliber": "Cal. 12 Buckshot",
+      "caliber": "CALIBER 12 (Buckshot)",
       "handling": 0,
       "distance": [{ "effective": 5 }, { "far shot": 20 }],
       "damage": "10",
@@ -40,7 +40,7 @@
     },
     {
       "name": "Pumpgun",
-      "caliber": "Cal. 12",
+      "caliber": "CALIBER 12 (Rifle barrel ammo)",
       "handling": 0,
       "distance": [{ "effective": 5 }, { "far shot": 40 }],
       "damage": "10",
@@ -126,7 +126,7 @@
     },
     {
       "name": "Trailblazer (FM)",
-      "caliber": "HF-full jacket",
+      "caliber": "HF Full jacket",
       "handling": 0,
       "distance": [{ "effective": 30 }, { "far shot": 120 }],
       "damage": "11",
@@ -153,7 +153,7 @@
     },
     {
       "name": "Trailblazer (HP)",
-      "caliber": "HF-hollow point",
+      "caliber": "HF Hollow point",
       "handling": 0,
       "distance": [{ "effective": 30 }, { "far shot": 120 }],
       "damage": "14",
@@ -180,7 +180,7 @@
     },
     {
       "name": "Trailblazer (Buckshot)",
-      "caliber": "Buckshot",
+      "caliber": "CALIBER 12 (Buckshot)",
       "handling": 0,
       "distance": [{ "effective": 10 }, { "far shot": 40 }],
       "damage": "10",
@@ -345,7 +345,7 @@
     },
     {
       "name": "Flechette rifle",
-      "caliber": "Flechettes",
+      "caliber": "5.56mm HUNTER Flechette",
       "handling": 2,
       "distance": [{ "effective": 30 }, { "far shot": 120 }],
       "damage": "13",
@@ -403,7 +403,7 @@
     },
     {
       "name": "Sawed-Off-Shotgun",
-      "caliber": "Cal. 12 Buckshot",
+      "caliber": "CALIBER 12 (Buckshot)",
       "handling": 0,
       "distance": [{ "effective": 5 }, { "far shot": 10 }],
       "damage": "10",
@@ -571,7 +571,7 @@
     }
     {
       "name": "Riot Shotgun",
-      "caliber": "Cal. 12",
+      "caliber": "CALIBER 12 (Rifle barrel ammo)",
       "handling": 0,
       "distance": [{ "effective": 5 }, { "far shot": 20 }],
       "damage": "10",

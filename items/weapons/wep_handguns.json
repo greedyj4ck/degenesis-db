@@ -63,7 +63,7 @@
     },
     {
       "name": "Automatic Pistol",
-      "caliber": "4.6x30 mm",
+      "caliber": "4.6x30mm",
       "handling": 0,
       "distance": [{ "effective": 10 }, { "far shot": 40 }],
       "damage": "7",
@@ -109,7 +109,7 @@
     },
     {
       "name": "Stubbed Trailblazer (FM)",
-      "caliber": "HF-full jacket",
+      "caliber": "HF Full jacket",
       "handling": 0,
       "distance": [{ "effective": 15 }, { "far shot": 60 }],
       "damage": "11",
@@ -132,7 +132,7 @@
     },
     {
       "name": "Stubbed Trailblazer (HP)",
-      "caliber": "HF-hollow point",
+      "caliber": "HF Hollow point",
       "handling": 0,
       "distance": [{ "effective": 15 }, { "far shot": 60 }],
       "damage": "14",
@@ -155,7 +155,7 @@
     },
     {
       "name": "Flintlock Pistol",
-      "caliber": "Lead bullets",
+      "caliber": "Lead bullet",
       "handling": 0,
       "distance": [{ "effective": 5 }, { "far shot": 20 }],
       "damage": "8",
@@ -205,7 +205,7 @@
     },
     {
       "name": "Submachine Gun",
-      "caliber": "4.6x30 mm",
+      "caliber": "4.6x30mm",
       "handling": 0,
       "distance": [{ "effective": 10}, { "far shot": 40 }],
       "damage": "7",
@@ -394,7 +394,7 @@
     },
     {
       "name": "Smartgun",
-      "caliber": "4.6x30 mm",
+      "caliber": "4.6x30mm",
       "handling": 2,
       "distance": [{ "effective": 15}, { "far shot": 30 }],
       "damage": "7",
