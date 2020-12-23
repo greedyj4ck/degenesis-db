@@ -1,0 +1,29 @@
+{
+  "item group": "Black powder",
+  "items": [
+    {
+      "name": "Powder Flask",
+      "effect": "Allows precise Under- and Overloading",
+      "capacity": "160Gr",
+      "technology": 2,
+      "value": "100",
+      "description": "Anything that can hold powder and protect it from a flame or excessive dampness can be used as a black powder container, but the powder flask is designed specifically for muzzleloading rifles. It has a spout allowing for precise pouring, a valve dispensing the exact amount of black powder, and a well reinforced container."
+    },
+    {
+      "name": "Paper Cartridge",
+      "effect": "One Action reload on muzzleloaders",
+      "capacity": "4Gr",
+      "technology": 2,
+      "value": "20",
+      "description": "The paper cartridge is a small cylinder with a standard volume of black powder pre-measured inside, all that is needed is to tear it open and pour it into the barrel. While this saves time, the amount of black powder stored in the cartridge is fixed and cannot be adjusted, as the finest shots like to do. For these marksmen, custom loaded cartridges can be made at additional cost."
+    },
+    {
+      "name": "Custom Paper Cartridge",
+      "effect": "One Action reload on muzzleloaders, variable size",
+      "capacity": "(Rating)Gr",
+      "technology": 2,
+      "value": "32+2xRating",
+      "description": "The paper cartridge is a small cylinder with a standard volume of black powder pre-measured inside, all that is needed is to tear it open and pour it into the barrel. While this saves time, the amount of black powder stored in the cartridge is fixed and cannot be adjusted, as the finest shots like to do. For these marksmen, custom loaded cartridges can be made at additional cost."
+    }
+  ]
+}

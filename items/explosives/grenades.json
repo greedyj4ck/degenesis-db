@@ -1,0 +1,144 @@
+{
+  "item group": "Grenades",
+  "skill test": "AGI+Projectiles",
+  "items": [
+    {
+      "name": "Flash Bang",
+      "handling": 0,
+      "distance": [{ "effective": 10 }, { "far shot": 40 }],
+      "damage": "Special",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Deviation",
+          "property": null
+        },
+        {
+          "name": "Cloud",
+          "property": "5 m, 1 round"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 0,
+      "value": 80,
+      "resources": 2,
+      "cult": ["Chroniclers", "Hellvetics"],
+      "description": "Like shock grenades, these grenades filled with magnesium are mainly used to initiate a quick attack. When ignited, there is an extremely bright, flickering flash of light that makes people automatically shield their eyes. Victims are temporarily blinded.",
+      "effect description": "If a Character is surprised by a flash bang, he gets -5D to all Actions requiring sight. Each round following the attack, this penalty is reduced by 1D."
+    },
+    {
+      "name": "Ozone Grenade",
+      "handling": -1,
+      "distance": [{ "effective": 10 }, { "far shot": 40 }],
+      "damage": "Special",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Deviation",
+          "property": null
+        },
+        {
+          "name": "Cloud",
+          "property": "15 m, 1 round"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 0,
+      "value": 500,
+      "resources": 3,
+      "cult": ["Spitalians", "Resistance"],
+      "description": "This agent was especially developed for forays against the Pheromancers. While the rod-shaped grenades are expensive to produce and not so easy to handle, they are indispensable for forays into Franka.",
+      "effect description": "Once ignited, ozone is freed explosively and instantly destroys all messenger substances in the grenade‘s blast radius. Ozone grenades are essential for survival against the alarm ichors of the Idol bearers. Pheromancers who are in the affected area at the moment of the explosion become briefly disoriented and have -4D when using their phenomena for 2 rounds."
+    },
+    {
+      "name": "Smoke Grenade",
+      "handling": 0,
+      "distance": [{ "effective": 10 }, { "far shot": 40 }],
+      "damage": "Special",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Deviation",
+          "property": null
+        },
+        {
+          "name": "Cloud",
+          "property": "5+ m, 30 rounds"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 0,
+      "value": 80,
+      "resources": 2,
+      "cult": ["Chroniclers", "Hellvetics"],
+      "description": "In contrast to explosive grenades, a smoke grenade burns for a longer period of time while continually producing smoke. There are different smoke colors and it is important to keep in mind that smoke grenades are used by the Hellvetics for signaling as well. When the wind conditions are appropriate or if used in interior rooms, the smoke reduces visibility to an arm‘s length within 1 D6 rounds, which makes it much easier to retreat. One could also use this opportunity to force the opponent to enter into close combat.",
+      "effect description": "After ignition, the grenade burns for 30 rounds. It depends on the room and wind conditions determine how long the penalty of -4D to all Actions requiring sight applies."
+    },
+    {
+      "name": "Shock Grenade",
+      "handling": 0,
+      "distance": [{ "effective": 10 }, { "far shot": 40 }],
+      "damage": "Special",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Deviation",
+          "property": null
+        },
+        {
+          "name": "Thunder Strike",
+          "property": null
+        },
+        {
+          "name": "Cloud",
+          "property": "5 m, 1 round"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 0,
+      "value": 110,
+      "resources": 2,
+      "cult": ["Chroniclers", "Palers"],
+      "description": "Like flash bangs, shock grenades are mainly used to confuse and surprise opponents. They detonation is extremely loud and leads to a temporary blast injury if victims don’t have ear protection. Chroniclers like to combine the effects of shock grenades with those of flash bangs.",
+      "effect description": "Victims of a blast injury cannot spend Ego points for two rounds. Explosions using both Shock and Flash Bang grenades have the effects of both agents, but they cost 200 CW and have a handling of -1D."
+    },
+    {
+      "name": "Frag Grenade",
+      "handling": 0,
+      "distance": [{ "effective": 10 }, { "far shot": 40 }],
+      "damage": "15",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Deviation",
+          "property": null
+        },
+        {
+          "name": "Thunder Strike",
+          "property": null
+        },
+        {
+          "name": "Explosive",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 3,
+      "slots": 0,
+      "value": 300,
+      "resources": 0,
+      "cult": [""],
+      "description": null,
+      "effect description": null
+    }
+  ]
+}

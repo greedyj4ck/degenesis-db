@@ -1,0 +1,113 @@
+{
+  "item group": "Explosives",
+  "items": [
+    {
+      "name": "Black powder",
+      "handling": 0,
+      "distance": 0,
+      "damage": "10",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Thunder Strike",
+          "property": null
+        },
+        {
+          "name": "Explosive",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 2,
+      "slots": 0,
+      "value": 100,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "TNT",
+      "handling": 0,
+      "distance": 0,
+      "damage": "14",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Thunder Strike",
+          "property": null
+        },
+        {
+          "name": "Explosive",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 23,
+      "slots": 0,
+      "value": 300,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Explosives",
+      "handling": 0,
+      "distance": 0,
+      "damage": "16",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Thunder Strike",
+          "property": null
+        },
+        {
+          "name": "Explosive",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 0,
+      "value": 800,
+      "resources": 3,
+      "cult": ["Hellvetics"],
+      "description": "The minerals and chemicals needed to produce explosives are mined from the mountain, delivered by Neolibyans, or ordered in the Protectorate. They are refined deep within the mountain. The Hellvetics arsenal is awe-inspiring. Spread over hundreds of bunkers in all Territorial Regions, it awaits the army of Sappers and Genies. In combat, the Hellvetics use mainly plastic explosives that can be easily mounted to targets and activated via timers or remote detonators. For tunneling, the Hellvetics use explosives in rods that are pressed into the rock with high thrust.",
+      "specialty": "Hellvetics can access any explosives and detonators they want with their Resources. For a Soldier, however, it is considered a waste to leave the Alpine Fortress with more than (2) charges of explosives. For Sappers, the limit is (4) charges."
+    },
+    {
+      "name": "Explosive bottles",
+      "handling": 0,
+      "distance": 0,
+      "damage": "6",
+      "damageBonus": null,
+      "magazine": 1,
+      "qualities": [
+        {
+          "name": "Thunder Strike",
+          "property": null
+        },
+        {
+          "name": "Explosive",
+          "property": null
+        },
+        {
+          "name": "Special",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 2,
+      "slots": 0,
+      "value": 60,
+      "resources": 1,
+      "cult": ["Jehammedans"],
+      "description": "In the Jehammedans’ explosive bottles there is a liquid made from bitumen and Petro. A twisted cloth is pushed into the bottleneck of the clay bottles like a wick. In combat, it is set on fire, and the bottle is thrown into the enemy ranks. The explosion is not enormous, but the flaming mixture clings like resin and cannot be washed off. Flames burn into the flesh: victims scream and roll on the floor while their despairing comrades look on helplessly. Explosive bottles are a cruel weapon. Those who use them must expect the most severe repercussions from the enemy.",
+      "specialty": "Explosive bottles deal Damage for several Rounds. Per Round, the Damage decreases by (1). If the victim tries to douse the flames with sand or dirt for (1) Combat Round, the Damage decreases by another point."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "item group": "Cartridges",
+  "items": [
+    {
+      "name": "SP 4016TH",
+      "effect": ["Poisoned (4C, -2D, Duration 1 day)"],
+      "injector": false,
+      "encumbrance": null,
+      "technology": 4,
+      "value": 50,
+      "resources": 2,
+      "cult": ["Spitalians"],
+      "description": "A fungicide used mainly to fight the Sepsis. The high sulfur content dries out the spore fields, and the added toxins stop them from recovering. A sprayed carpet of Sepsis disappears within hours. The fungicide degrades very slowly, which prevents the emergence of new spores for months to years.",
+      "effect description": "If anyone comes into contact with SP 4016 (Potency (4)), oozing, itchy pustules begin to cover their entire bodies (-2D to all Actions), and it takes a full day for them to disappear. The effects do not stack. Not suitable for Injector Guns."
+    },
+    {
+      "name": "Pheromone marker",
+      "effect": ["Attractant(Pheromancer plagues)"],
+      "injector": false,
+      "encumbrance": null,
+      "technology": 4,
+      "value": 30,
+      "resources": 3,
+      "cult": ["Spitalians"],
+      "description": "The Pharmacists keep achieving better and better successes in copying the marker pheromones of Franka’s insect swarms. Dissolved in a syrupy liquid and filled into cartridges, they make it possible for the Spitalians to tear parts of the swarms from the formation and lure them into fire pits.",
+      "effect description": "A dose of pheromone marker draws insects within a 20-step radius, but only for a few minutes. The synthetic pheromones quickly deteriorate—they oxidize— and lose their effect. Not suitable for Injector Guns. Only useful against the Pheromancer plague."
+    },
+    {
+      "name": "Irritant",
+      "effect": ["Poisoned (5C, -3D, +1D recovery per Round)"],
+      "injector": false,
+      "encumbrance": null,
+      "technology": 4,
+      "value": 70,
+      "resources": 3,
+      "cult": ["Spitalians"],
+      "description": "The main compound of irritants is bromoacetone, a liquid with a pungent smell that is very irritating when it comes into contact with eyes and mucosae, causing those afflicted to struggle to catch their breath and see through their swollen eyelids.",
+      "effect description": "The Damage resulting from the irritant (Potency 5) causes no wounds, but a general penalty (-3D) through the Quality “Poisoned”. Not suitable for Injector Guns."
+    },
+    {
+      "name": "EX-Aerosol / EG-1",
+      "effect": ["Pseudo-desporeing (1 + Triggers, 10 min)"],
+      "injector": true,
+      "encumbrance": null,
+      "technology": 5,
+      "value": 1500,
+      "resources": 6,
+      "cult": ["Spitalians"],
+      "description": "If a Psychonaut comes into contact with the aerosol, it blocks the catalytic effect of the spores on an epigenetic level—essentially de-sporeing the Aberrant. It only takes a few minutes, though, to degrade the agent, after which the spores offer the same repertoire of Phenomena to the Psychonaut again.",
+      "effect description": "Per dose or detonating cartridge the spore infestation decreases for 10 minutes (see Quality “Pseudo desporeing”)."
+    },
+    {
+      "name": "Fire dust",
+      "effect": ["Causes fire damage like a Spitfire (8))"],
+      "injector": false,
+      "encumbrance": null,
+      "technology": 4,
+      "value": 80,
+      "resources": 3,
+      "cult": ["Spitalians"],
+      "description": "Coated Phosphor in the form of a white powder. It starts to burn within a second after coming into contact with oxygen. The effect is a searing white flame.",
+      "effect description": "Fire dust does not form a cloud, and the Damage happens immediately and only once (it is fire Damage)."
+    },
+    {
+      "name": "Black band",
+      "effect": ["Narcotic (6C, 6 Ego)"],
+      "injector": true,
+      "encumbrance": null,
+      "technology": 4,
+      "value": 600,
+      "resources": 5,
+      "cult": ["Spitalians"],
+      "description": "A black band marks the cartridge of the strongest combat anesthetic of the Spital, hence its name. Officially, only Anesthesiologists may use the agent, but the Preservists keep demanding access to it. The colorless aerosol is made from opioids and anesthetics. When breathed in, it leads to immediate loss of consciousness in most people.",
+      "effect description": "Black band causes Ego Point Damage (see Quality “Narcotic”)."
+    },
+    {
+      "name": "Chlorine gas",
+      "effect": [
+        "Poisoned (5C, 1 Trauma per Round, Potency -1 per Round, successful roll on BOD+Toughness (Potency) ends poisoning"
+      ],
+      "injector": false,
+      "encumbrance": null,
+      "technology": 3,
+      "value": 120,
+      "resources": 4,
+      "cult": ["Spitalians"],
+      "description": "Chlorine gas is one of the most dangerous agents of the Spital. When breathed in, it destroys the lung tissue. Rosy shreds are torn loose and coughed out spasmodically. The bronchi fill up with liquid, the breath starts rattling, and the skin becomes pale and finally turns blue, although the victim does not realize it as at this point they have already lost consciousness. Chlorine is heavier than air, so it sinks and amasses low to the ground. Thus, it is well-suited to contaminate the ring valleys of the spore fields and to eliminate Psychonauts.",
+      "effect description": "Chlorine gas exists in the form of ammunition for Cartridge Launchers and as grenades or mines. Not suitable for the Fungicide Rifle or the Injector Gun. Only dissipates in strong winds. Its effects are like those of a toxin of Potency (5). Damage is (1) Trauma per Round but can be averted by a successful BOD+Toughness (Potency) roll (see Quality “Poisoned”)."
+    }
+  ]
+}

@@ -1,174 +1,223 @@
 {
-"item group": "Ammunition",
-"items": [
+  "item group": "Ammunition",
+  "items": [
+    {
+      "ammo": ".50 GL",
+      "damage": "12",
+      "tech level": "4",
+      "price": "70",
+      "resources": null,
+      "cult": [],
+      "description": "A very heavy caliber with extreme punch. The gas pressure of the fired bullet can tear lesser weapons apart, and therefore the ammo is often traded rather than fired."
+    },
+    {
+      "ammo": ".357",
+      "damage": "6",
+      "tech level": "4",
+      "price": "20",
+      "resources": null,
+      "cult": [],
+      "description": "In the era of the beast, humans hunted everything with meat on its bones. They mainly used hunting rifles and small pistols of caliber .357. Children still find the cartridges in the dirt, collect them, and trade them for some bread and soup in a workshop. The cartridges are cleaned, polished, and filled with gunpowder and bullets. Old stock is extremely rare."
+    },
+    {
+      "ammo": ".44",
+      "damage": "10",
+      "tech level": "4",
+      "price": "50",
+      "resources": null,
+      "cult": [],
+      "description": "A very strong ammo for double-action revolvers. There is a known storage house for the ammo in the south of Borca; when it was found and exploited 10 winters ago, the ammo flooded the markets of the region. Most of the .44 bullets sold in Justitian or Wroclaw to this day hailed from this find."
+    },
+    {
+      "ammo": "5.56x45mm",
+      "damage": "11",
+      "tech level": "4",
+      "price": "60",
+      "resources": null,
+      "cult": [],
+      "description": "The standard caliber of the NATO nations in the 21st century. Although NATO was ultimately supplanted by the UEO, the latter still accepted this ammo because of the capacities already manufactured. This same ammo is used today. The 5.56x45 mm UEO round is very effective against unprotected human targets, but has its difficulties with heavy body armor if the target is further away."
+    },
+    {
+      "ammo": "HF Full jacket",
+      "damage": "11",
+      "tech level": "4",
+      "price": "80",
+      "resources": null,
+      "cult": [],
+      "description": "This type of ammo is equal to the 5.56x45 mm UEO caliber but was modified by the Hellvetics to be fired from their Trailblazers at a high fire rate. To make it possible to cycle the bullets so fast, they are coated with Teflon."
+    },
+    {
+      "ammo": "HF Hollow point",
+      "damage": "14",
+      "tech level": "4",
+      "price": "80",
+      "resources": null,
+      "cult": [],
+      "description": "This Trailblazer ammo, which again looks exactly like the 5.56x45 mm UEO, is designed to ensure the heaviest possible damage in human tissue. The price for this is low armor penetration."
+    },
+    {
+      "ammo": "5.56mm HUNTER Flechette",
+      "damage": "13",
+      "tech level": "5",
+      "price": "220",
+      "resources": null,
+      "cult": [],
+      "description": "Flechettes are needle ammo with an extremely high muzzle velocity and excellent penetration. However, the damage flechettes do to the human body led to their international ban: they were forbidden on all battlefields. This didn’t stop some Western countries from using it in the war against crime and terror, and bunker teams were equipped with flechette weapons, too. While regular ammo cartridges can partly be recycled, there is no chance to do so with flechettes. Once fired, they change shape in the target and become unusable. Furthermore, they perfectly fit in their plastic casings. The precision required for something like that is lost since the Eshaton. Flechettes are considered very rare and are sold at high prices on the market."
+    },
+    {
+      "ammo": "4.6x30mm",
+      "damage": "7",
+      "tech level": "4",
+      "price": "30",
+      "resources": null,
+      "cult": [],
+      "description": "The standard bullet of NATO and later of the UEO for pistols and submachine guns. Sporadically found, usually very close to UEO barricades or barracks."
+    },
+    {
+      "ammo": "9mm",
+      "damage": "9",
+      "tech level": "4",
+      "price": "40",
+      "resources": null,
+      "cult": [],
+      "description": "Only a few weapons with 9 mm caliber still exist, and there is not much more ammo to be found than what these weapons have in their clips. It’s likely that the 9 mm UEO had been discontinued years before the Eshaton."
+    },
+    {
+      "ammo": "5x30mm Caseless",
+      "damage": "8",
+      "tech level": "5",
+      "price": "180",
+      "resources": null,
+      "cult": [],
+      "description": "A caseless bullet with good ballistic properties. The projectile is encased in a block of compressed and hardened powder that completely burns away at ignition. There is no known manufacturer that could produce this ammo."
+    },
+    {
+      "ammo": "CALIBER 12 (Buckshot)",
+      "damage": "10",
+      "tech level": "3",
+      "price": "10",
+      "resources": null,
+      "cult": [],
+      "description": "Scrappers love caliber 12. They fill the ammo, which is about as thick as a man’s thumb, with screws, nails, stones, salt or buckshot, and they experiment with the propellant. The caliber is only suitable for shotguns."
+    },
+    {
+      "ammo": "CALIBER 12 (Rifle barrel ammo)",
+      "damage": "10",
+      "tech level": "3",
+      "price": "20",
+      "resources": null,
+      "cult": [],
+      "description": "Scrappers love caliber 12. They fill the ammo, which is about as thick as a man’s thumb, with screws, nails, stones, salt or buckshot, and they experiment with the propellant. The caliber is only suitable for shotguns."
+    },
+    {
+      "ammo": "Lead bullet",
+      "damage": "8",
+      "tech level": "3",
+      "price": "10",
+      "resources": null,
+      "cult": [],
+      "description": "To produce a lead bullet, you need liquid lead and a tower. The lead is poured through a sieve at the top of the tower, takes on its round form while falling, hardens, and falls into water buckets. The lead bullets only have to be filtered out. For the propellant, charcoal, niter, and sulfur are ground, mixed, and rolled into very thin strips of cellulose. Propellant and bullet are filled into the muzzle loader via the barrel. The flintlock mechanism sends a spark into the barrel that ignites the charge."
+    },
+    {
+      "ammo": "E-Cube",
+      "damage": "0",
+      "tech level": "5",
+      "price": "1000",
+      "resources": null,
+      "cult": [],
+      "description": "An E-Cube is a rechargeable energy reservoir that is used in energy weapons like the Soul Burner, the Shocker, or the Scourge because of its compact cubic form. It is also used in countless artifacts. The Chroniclers follow up on every find and buy what they can, so E-Cubes are rare and extremely expensive at market."
+    },
+    {
+      "ammo": "E-Cube recharging",
+      "damage": "0",
+      "tech level": "4",
+      "price": "100",
+      "resources": null,
+      "cult": [],
+      "description": "An E-Cube is a rechargeable energy reservoir that is used in energy weapons like the Soul Burner, the Shocker, or the Scourge because of its compact cubic form. It is also used in countless artifacts. The Chroniclers follow up on every find and buy what they can, so E-Cubes are rare and extremely expensive at market."
+    },
+    {
+      "ammo": "Arrow",
+      "damage": "0",
+      "tech level": "1",
+      "price": "1",
+      "resources": null,
+      "cult": [],
+      "description": ""
+    },
+    {
+      "ammo": "Bolt",
+      "damage": "0",
+      "tech level": "2",
+      "price": "5",
+      "resources": null,
+      "cult": [],
+      "description": ""
+    },
+    {
+      "ammo": "Can of Petro",
+      "damage": "0",
+      "tech level": "3",
+      "price": "300",
+      "africa price": "5",
+      "resources": null,
+      "cult": [],
+      "description": ""
+    },
 
-{
-    "ammo": ".50 GL",
-    "damage": "12",
-    "tech level": "4",
-    "price": "70",
-    "description":"A very heavy caliber with extreme punch. The gas pressure of the fired bullet can tear lesser weapons apart, and therefore the ammo is often traded rather than fired."},
-{
-    "ammo": ".357",
-    "damage": "6",
-    "tech level": "4",
-    "price": "20",
-    "description":"In the era of the beast, humans hunted everything with meat on its bones. They mainly used hunting rifles and small pistols of caliber .357. Children still find the cartridges in the dirt, collect them, and trade them for some bread and soup in a workshop. The cartridges are cleaned, polished, and filled with gunpowder and bullets. Old stock is extremely rare."
-},
-{
-    "ammo": ".44",
-    "damage": "10",
-    "tech level": "4",
-    "price": "50",
-    "description":"A very strong ammo for double-action revolvers. There is a known storage house for the ammo in the south of Borca; when it was found and exploited 10 winters ago, the ammo flooded the markets of the region. Most of the .44 bullets sold in Justitian or Wroclaw to this day hailed from this find."
-},
-{
-    "ammo": "5.56x45mm",
-    "damage": "11",
-    "tech level": "4",
-    "price": "60",
-    "description":"The standard caliber of the NATO nations in the 21st century. Although NATO was ultimately supplanted by the UEO, the latter still accepted this ammo because of the capacities already manufactured. This same ammo is used today. The 5.56x45 mm UEO round is very effective against unprotected human targets, but has its difficulties with heavy body armor if the target is further away."
-},
-{
-    "ammo": "HF Full jacket",
-    "damage": "11",
-    "tech level": "4",
-    "price": "80",
-    "description":"This type of ammo is equal to the 5.56x45 mm UEO caliber but was modified by the Hellvetics to be fired from their Trailblazers at a high fire rate. To make it possible to cycle the bullets so fast, they are coated with Teflon."
-},
-{
-    "ammo": "HF Hollow point",
-    "damage": "14",
-    "tech level": "4",
-    "price": "80",
-    "description":"This Trailblazer ammo, which again looks exactly like the 5.56x45 mm UEO, is designed to ensure the heaviest possible damage in human tissue. The price for this is low armor penetration."
-},
-{
-    "ammo": "5.56mm HUNTER Flechette",
-    "damage": "13",
-    "tech level": "5",
-    "price": "220",
-    "description":"Flechettes are needle ammo with an extremely high muzzle velocity and excellent penetration. However, the damage flechettes do to the human body led to their international ban: they were forbidden on all battlefields. This didn’t stop some Western countries from using it in the war against crime and terror, and bunker teams were equipped with flechette weapons, too. While regular ammo cartridges can partly be recycled, there is no chance to do so with flechettes. Once fired, they change shape in the target and become unusable. Furthermore, they perfectly fit in their plastic casings. The precision required for something like that is lost since the Eshaton. Flechettes are considered very rare and are sold at high prices on the market."
-},
-{
-    "ammo": "4.6x30mm",
-    "damage": "7",
-    "tech level": "4",
-    "price": "30",
-    "description":"The standard bullet of NATO and later of the UEO for pistols and submachine guns. Sporadically found, usually very close to UEO barricades or barracks."
-},
-{
-    "ammo": "9mm",
-    "damage": "9",
-    "tech level": "4",
-    "price": "40",
-    "description":"Only a few weapons with 9 mm caliber still exist, and there is not much more ammo to be found than what these weapons have in their clips. It’s likely that the 9 mm UEO had been discontinued years before the Eshaton."
-},
-{
-    "ammo": "5x30mm Caseless",
-    "damage": "8",
-    "tech level": "5",
-    "price": "180",
-    "description":"A caseless bullet with good ballistic properties. The projectile is encased in a block of compressed and hardened powder that completely burns away at ignition. There is no known manufacturer that could produce this ammo."
-},
-{
-    "ammo": "CALIBER 12 (Buckshot)",
-    "damage": "10",
-    "tech level": "3",
-    "price": "10",
-    "description":"Scrappers love caliber 12. They fill the ammo, which is about as thick as a man’s thumb, with screws, nails, stones, salt or buckshot, and they experiment with the propellant. The caliber is only suitable for shotguns."
-},
-{
-    "ammo": "CALIBER 12 (Rifle barrel ammo)",
-    "damage": "10",
-    "tech level": "3",
-    "price": "20",
-    "description":"Scrappers love caliber 12. They fill the ammo, which is about as thick as a man’s thumb, with screws, nails, stones, salt or buckshot, and they experiment with the propellant. The caliber is only suitable for shotguns."
-},
-{
-    "ammo": "Lead bullet",
-    "damage": "8",
-    "tech level": "3",
-    "price": "10",
-    "description":"To produce a lead bullet, you need liquid lead and a tower. The lead is poured through a sieve at the top of the tower, takes on its round form while falling, hardens, and falls into water buckets. The lead bullets only have to be filtered out. For the propellant, charcoal, niter, and sulfur are ground, mixed, and rolled into very thin strips of cellulose. Propellant and bullet are filled into the muzzle loader via the barrel. The flintlock mechanism sends a spark into the barrel that ignites the charge."
-},
-{
-    "ammo": "E-Cube",
-    "damage": "0",
-    "tech level": "5",
-    "price": "1000",
-    "description":"An E-Cube is a rechargeable energy reservoir that is used in energy weapons like the Soul Burner, the Shocker, or the Scourge because of its compact cubic form. It is also used in countless artifacts. The Chroniclers follow up on every find and buy what they can, so E-Cubes are rare and extremely expensive at market."
-},
-{
-    "ammo": "E-Cube recharging",
-    "damage": "0",
-    "tech level": "4",
-    "price": "100",
-    "description":"An E-Cube is a rechargeable energy reservoir that is used in energy weapons like the Soul Burner, the Shocker, or the Scourge because of its compact cubic form. It is also used in countless artifacts. The Chroniclers follow up on every find and buy what they can, so E-Cubes are rare and extremely expensive at market."
-},
-{
-    "ammo": "Arrow",
-    "damage": "0",
-    "tech level": "1",
-    "price": "1",
-    "description":""
-},
-{
-    "ammo": "Bolt",
-    "damage": "0",
-    "tech level": "2",
-    "price": "5",
-    "description":""
-},
-{
-    "ammo": "Can of Petro",
-    "damage": "0",
-    "tech level": "3",
-    "price": "300",
-    "africa price": "5",
-    "description":""
-},
-{
-    "ammo": "Can of Petro",
-    "damage": "0",
-    "tech level": "3",
-    "price": "300",
-    "africa price": "5",
-    "description":""
-},
-{
-    "ammo": "7.62",
-    "damage": "13",
-    "tech level": "4",
-    "price": "70",
-    "description":"The 7.62 is a heavy cartridge filled with gunpowder, able to launch a far heavier projectile than many other calibers and cause significantly more damage. This leads to it being far more expensive due to both its relative rarity in the 26th century and the amount of gunpowder used in its construction. As such, it is rarely used, most shooters favoring cheaper ammunition that often does the job just as well."
-},
-{
-    "ammo": "14mm",
-    "damage": "15",
-    "tech level": "4",
-    "price": "200",
-    "description":"Massive cartridges designed to punch through the steel armor of vehicles or tear away at the walls of buildings, this ammunition is uncommon in the wasteland due to its impracticality: there is very little in this day and age that requires such a powerful bullet to kill. There is a market for this caliber, though, mainly finding its way into the hands of those who want to be sure that their shot will penetrate a Psychonaut’s defenses, no matter how strong."
-},
-{
-    "ammo": ".410 slug",
-    "damage": "7",
-    "tech level": "3",
-    "price": "7",
-    "description":"The .410 caliber emerged from the Scrappers and their tinkering with the ubiquitous Caliber 12 casing. Able to be loaded into revolvers due to their small size, they are far less powerful than a full-sized shotgun cartridge but are cheap due to easy manufacture. They require far less powder and shot, which makes them very sustainable despite their lack of power."
-},
-{
-    "ammo": ".410 shot",
-    "damage": "7",
-    "tech level": "3",
-    "price": "7",
-    "description":"The .410 caliber emerged from the Scrappers and their tinkering with the ubiquitous Caliber 12 casing. Able to be loaded into revolvers due to their small size, they are far less powerful than a full-sized shotgun cartridge but are cheap due to easy manufacture. They require far less powder and shot, which makes them very sustainable despite their lack of power."
-},
-{
-    "ammo": "Fragger Round",
-    "damage": "14",
-    "tech level": "5",
-    "price": "500",
-    "description":"Advanced, self-propelled ammunition designed for use in a specialised weapon platform, each bullet contains sensors measuring thermal properties, distance to target, and magnetic forces that allow them to independently decide to detonate before hitting a soft target, spraying the vulnerable flesh with shrapnel and causing lacerating wounds, or remain solid when entering something armored, penetrating through to whatever is hidden beneath."
+    {
+      "ammo": "7.62",
+      "damage": "13",
+      "tech level": "4",
+      "price": "70",
+      "resources": null,
+      "cult": [],
+      "description": "The 7.62 is a heavy cartridge filled with gunpowder, able to launch a far heavier projectile than many other calibers and cause significantly more damage. This leads to it being far more expensive due to both its relative rarity in the 26th century and the amount of gunpowder used in its construction. As such, it is rarely used, most shooters favoring cheaper ammunition that often does the job just as well."
+    },
+    {
+      "ammo": "14mm",
+      "damage": "15",
+      "tech level": "4",
+      "price": "200",
+      "resources": null,
+      "cult": [],
+      "description": "Massive cartridges designed to punch through the steel armor of vehicles or tear away at the walls of buildings, this ammunition is uncommon in the wasteland due to its impracticality: there is very little in this day and age that requires such a powerful bullet to kill. There is a market for this caliber, though, mainly finding its way into the hands of those who want to be sure that their shot will penetrate a Psychonaut’s defenses, no matter how strong."
+    },
+    {
+      "ammo": ".410 slug",
+      "damage": "7",
+      "tech level": "3",
+      "price": "7",
+      "resources": null,
+      "cult": [],
+      "description": "The .410 caliber emerged from the Scrappers and their tinkering with the ubiquitous Caliber 12 casing. Able to be loaded into revolvers due to their small size, they are far less powerful than a full-sized shotgun cartridge but are cheap due to easy manufacture. They require far less powder and shot, which makes them very sustainable despite their lack of power."
+    },
+    {
+      "ammo": ".410 shot",
+      "damage": "7",
+      "tech level": "3",
+      "price": "7",
+      "resources": null,
+      "cult": [],
+      "description": "The .410 caliber emerged from the Scrappers and their tinkering with the ubiquitous Caliber 12 casing. Able to be loaded into revolvers due to their small size, they are far less powerful than a full-sized shotgun cartridge but are cheap due to easy manufacture. They require far less powder and shot, which makes them very sustainable despite their lack of power."
+    },
+    {
+      "ammo": "Fragger Round",
+      "damage": "14",
+      "tech level": "5",
+      "price": "500",
+      "resources": null,
+      "cult": [],
+      "description": "Advanced, self-propelled ammunition designed for use in a specialised weapon platform, each bullet contains sensors measuring thermal properties, distance to target, and magnetic forces that allow them to independently decide to detonate before hitting a soft target, spraying the vulnerable flesh with shrapnel and causing lacerating wounds, or remain solid when entering something armored, penetrating through to whatever is hidden beneath."
+    },
+    {
+      "ammo": "Freon Cartridges",
+      "damage": "5",
+      "tech level": "5",
+      "price": "75",
+      "resources": 2,
+      "cult": ["Mechans"],
+      "description": "Nearly impossible to manufacture, the Freon cartridge contains a gas that causes a sudden and painful chilling effect when exposed to pressure changes. Freon based weapons often contain coolers that drop the temperature even further than its common storage level, leading to brutal frost burns affecting anyone coated in the icy blue vapor."
+    }
+  ]
 }
-]}
