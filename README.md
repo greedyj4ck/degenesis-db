@@ -22,11 +22,15 @@ Icons used in database are created by:
 ### Items
 
 - [x] Ammunition 
-
+- [x] Agents
+- [x] Explosives
+- [x] Grenades
+- [x] Black powder
 
 ### Icons
  
-- [ ] Ammunition (partially)
+- [x] Ammunition
+- [x] Brawl weapons (W.I.P)
 
 ## Community
 Be a part of our community :) Join us at Discord https://discord.gg/degenesis
