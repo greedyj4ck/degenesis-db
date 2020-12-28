@@ -1,0 +1,507 @@
+{
+  "item group": "Armor",
+  "items": [
+    {
+      "name": "Salted clothing",
+      "rating": 1,
+      "qualities": [
+        {
+          "name": "Unstable",
+          "property": "4"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 1,
+      "slots": 0,
+      "value": 20,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Fur cape",
+      "rating": 1,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 1,
+      "slots": 0,
+      "value": 40,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Mammoth hide wrap",
+      "rating": 2,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 1,
+      "slots": 0,
+      "value": 100,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Leather coat",
+      "rating": 2,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 1,
+      "slots": 2,
+      "value": 120,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Leather armor",
+      "rating": 3,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 2,
+      "value": 320,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Chain mail",
+      "rating": 4,
+      "qualities": [],
+      "encumbrance": 3,
+      "technology": 2,
+      "slots": 1,
+      "value": 400,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Rubber harness",
+      "rating": 4,
+      "qualities": [
+        {
+          "name": "Insulated",
+          "property": null
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 2,
+      "slots": 2,
+      "value": 650,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Scrapper armor",
+      "rating": 4,
+      "qualities": [
+        {
+          "name": "Unstable",
+          "property": "6"
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 2,
+      "slots": 6,
+      "value": 700,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Reinforced metal plate armor",
+      "rating": 5,
+      "qualities": [
+        {
+          "name": "Massive",
+          "property": "7"
+        }
+      ],
+      "encumbrance": 4,
+      "technology": 2,
+      "slots": 2,
+      "value": 750,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Kevlar jacket",
+      "rating": 4,
+      "qualities": [
+        {
+          "name": "Bulletproof",
+          "property": "7"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 3,
+      "slots": 1,
+      "value": 1400,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "AMSUMO casing",
+      "rating": 8,
+      "qualities": [
+        {
+          "name": "Massive",
+          "property": "10"
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 5,
+      "slots": 1,
+      "value": 9000,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "AMSUMO casing",
+      "rating": 8,
+      "qualities": [
+        {
+          "name": "Massive",
+          "property": "10"
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 5,
+      "slots": 1,
+      "value": 9000,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Spitalian suit",
+      "rating": 2,
+      "qualities": [
+        {
+          "name": "Sealed",
+          "property": "+4S"
+        },
+        {
+          "name": "Respected",
+          "property": "+1D (Patients)"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 3,
+      "slots": 2,
+      "value": 300,
+      "resources": 2,
+      "cult": ["Spitalians"],
+      "description": "The neoprene suit is airtight and thus sealed against bacteria: with gas mask and chalked skull (the chalk disinfects), the doctors are relatively safe in plague-ridden areas. For longer missions, the suit is equipped with a urine bottle so that the Spitalian can reduce his contact to the contaminated environment to a minimum. Thin membranes in the crook of the arms make it possible to shoot an injection through the suit.",
+      "specialty": "The suit turns a common man into a savior—at least in the afflicted ones’ eyes. Talking to them, a person wearing a suit gets +1D to social interactions. If a fully equipped Spitalian were to be exposed to spore infestation, illness, or environmental poisoning, he gets (+4) Successes to his resistance roll—just as with the Quality “Sealed (+4S)”. The Spitalian suit includes a level 2 gas mask. If the doctor buys a better filtering device, the bonus rises to +5S."
+    },
+    {
+      "name": "Hygienist suit",
+      "rating": 2,
+      "qualities": [
+        {
+          "name": "Sealed",
+          "property": "+6S"
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 3,
+      "slots": 3,
+      "value": 900,
+      "resources": 3,
+      "cult": ["Spitalians"],
+      "description": "The Hygienist suit, bulkier than the regular Spitalian suit, with its closed helmet and oxygen tank, is well-suited for missions in highly contaminated zones.",
+      "specialty": "High encumbrance, but (+6) Successes on resistance rolls against spore infestation, illnesses, and environmental toxins. The air tank equals a level 3 gas mask."
+    },
+    {
+      "name": "Preservist variety",
+      "rating": 3,
+      "qualities": [
+        {
+          "name": "Sealed",
+          "property": "+4S"
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 3,
+      "slots": 2,
+      "value": 800,
+      "resources": 4,
+      "cult": ["Spitalians"],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Chroniclers’ suit",
+      "rating": 2,
+      "qualities": [
+        {
+          "name": "First Impression",
+          "property": "+1D"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 2,
+      "value": 300,
+      "resources": 2,
+      "cult": ["Chroniclers"],
+      "description": "A Chronicler Suit is laden with technology. Cables run from E-Cube blocks to the velcroes on the back, the arms, and the legs. Sensors register movement and convey it to a microcontroller under the Vocoder. With the help of well-rehearsed, programmed sets of movements, impulses can be sent through the cables to the links. This way, the Chronicler controls the various modules that can be linked to his suit.",
+      "specialty": "A Chronicler Suit is always equipped with shimmering applications. The Chroniclers call them glitter. They look impressive and make more than a few Clanners shrink back: the Chronicler gets +1D to his first try at social interaction (Quality “First Impression”)."
+    },
+    {
+      "name": "Harness",
+      "rating": 5,
+      "qualities": [
+        {
+          "name": "Fire Resistant",
+          "property": "8"
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 4,
+      "slots": 2,
+      "value": 4800,
+      "resources": 0,
+      "cult": ["Hellvetics"],
+      "description": "The Hellvetic Harness is the second-most important piece of equipment for soldiers after the Trailblazer. In the time when the Hellvetics bridged the Reaper’s Blow, this armor was perfected, and another function was added: heat dissipation. Today, it doesn’t only offer good ballistic protection, but also compensates for the infernal fires of the passages close to the Reaper’s Blow.",
+      "specialty": "The armor plates of the Harness can be hardened and enameled in the fortress plants. The finish increases the Armor rating, but also the risk of the plates breaking (permanently (-1) Armor rating after (12) points of Damage with one hit; see “Brittle” Quality)."
+    },
+    {
+      "name": "Spotter Harness",
+      "rating": 3,
+      "qualities": [
+        {
+          "name": "Camo",
+          "property": "5C"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 2,
+      "value": 3500,
+      "resources": 3,
+      "cult": ["Hellvetics"],
+      "description": "With the Recon and infiltration variety, the ceramic armor plates of the regular Harness are replaced by flexible, fiberhardened mesh. The armor is lighter and tighter. Clothing can be worn over it as camo.",
+      "specialty": "If a stranger tries to see through the camo, he must make an Action roll on INS+Perception (5) (see “Camo” Quality)."
+    },
+    {
+      "name": "Heavy Duty Harness",
+      "rating": 7,
+      "qualities": [
+        {
+          "name": "Massive",
+          "property": "9"
+        },
+        {
+          "name": "Fire Resistant",
+          "property": "8"
+        }
+      ],
+      "encumbrance": 4,
+      "technology": 5,
+      "slots": 3,
+      "value": 8000,
+      "resources": 4,
+      "cult": ["Hellvetics"],
+      "description": "The Heavy Duty Armor is a modular exoskeleton clad in Harness plates. It is custom-fitted for every mission SPECIALTY: An exoskeleton gives its wearer BOD+Force +3D. All attacks and attempts to use Active Defense, as well as fine motor Actions, are at -2D. Modules can be combined as long as they fit into the armor’s slots.",
+      "specialty": null
+    },
+    {
+      "name": "Judge's hat and coat",
+      "rating": 2,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 2,
+      "value": 180,
+      "resources": 1,
+      "cult": ["Judges"],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Druschinnik silk armor",
+      "rating": 3,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 3,
+      "slots": 0,
+      "value": 600,
+      "resources": 4,
+      "cult": ["Clanners"],
+      "description": "Wroclaw’s fine silk thread is turned into breastplates for the Piast’s bodyguards. Several layers of silk are stacked and stitched. The fabric is extremely resilient, deflecting arrows and knife blades.",
+      "specialty": null
+    },
+    {
+      "name": "Flak jacket and helmet",
+      "rating": 4,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 1,
+      "value": 1600,
+      "resources": 2,
+      "cult": ["Scourgers"],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Flak jacket and lion helmet",
+      "rating": 4,
+      "qualities": [],
+      "encumbrance": 2,
+      "technology": 4,
+      "slots": 1,
+      "value": 1600,
+      "resources": 0,
+      "cult": ["Scourgers"],
+      "description": "Only the Simba may wear the lion helmet in battle. The mighty lion skull is heavy, it symbolizes the fusion of animal and human and reminds the Africans that they are at the top of the food chain.",
+      "specialty": "In the land of the Crow, the Simba’s rank effects only apply when he wears the lion helmet."
+    },
+    {
+      "name": "Ram helmet (Arianoi)",
+      "rating": 1,
+      "qualities": [
+        {
+          "name": "Terrifying",
+          "property": "3"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 1,
+      "slots": 0,
+      "value": 100,
+      "resources": 1,
+      "cult": ["Jehammedans"],
+      "description": "An Arianoi only wears the bulky ram helmet in combat.",
+      "specialty": "The sight of the ram skull on a human body shocks those who are weaker in will or of faith (“Terrifying” Quality)."
+    },
+    {
+      "name": "Black fleece (Arianoi)",
+      "rating": 3,
+      "qualities": [
+        {
+          "name": "Fire Resistant",
+          "property": "8"
+        },
+        {
+          "name": "Insulated",
+          "property": null
+        },
+        {
+          "name": "Terrifying",
+          "property": "5"
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 6,
+      "slots": 0,
+      "value": 16000,
+      "resources": 6,
+      "cult": ["Jehammedans"],
+      "description": "The fleece is liquid, darkest night, and its ram locks flutter as if they were in a storm—even if there is no wind at all. The Spitalians know this phenomenon; they have watched it in the Festering: a nanite swarm. How it clings to the fleece and why it doesn’t turn everything it touches to carbon corals they cannot explain, though.",
+      "specialty": "Just the sight of the nanite-drenched fleece terrifies people. They have to succeed at an Action roll on PSY+Faith/Willpower (5) or suffer a penalty of -2D when attacking the Arianoi (“Terrifying” Quality)."
+    },
+    {
+      "name": "Ceramic fiber weave",
+      "rating": 5,
+      "qualities": [
+        {
+          "name": "Bulletproof",
+          "property": "8"
+        },
+        {
+          "name": "Sealed",
+          "property": "+1S"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 5,
+      "slots": 1,
+      "value": 22000,
+      "resources": 0,
+      "cult": ["RG"],
+      "description": null,
+      "specialty": null
+    },
+
+    {
+      "name": "Composite armor",
+      "rating": 6,
+      "qualities": [
+        {
+          "name": "Bulletproof",
+          "property": "9"
+        }
+      ],
+      "encumbrance": 2,
+      "technology": 5,
+      "slots": 1,
+      "value": 28000,
+      "resources": 0,
+      "cult": ["RG"],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Graph combat suit",
+      "rating": 7,
+      "qualities": [
+        {
+          "name": "Bulletproof",
+          "property": "10"
+        },
+        {
+          "name": "Sealed",
+          "property": "+2S"
+        }
+      ],
+      "encumbrance": 3,
+      "technology": 6,
+      "slots": 0,
+      "value": 60000,
+      "resources": 0,
+      "cult": ["Free Spirit"],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Shutter Suit",
+      "rating": 2,
+      "qualities": [
+        {
+          "name": "Special",
+          "property": null
+        }
+      ],
+      "encumbrance": 1,
+      "technology": 4,
+      "slots": 2,
+      "value": 300,
+      "resources": 3,
+      "cult": ["Chroniclers"],
+      "description": "Shutters, Fuses and other Cult members on secret missions have no use for the pomp of regular Chronicler Suits. Maybe that kind of stuff can serve to intimidate Clanners, but there‘s a different set of rules underground.",
+      "specialty": "Shutter Suits are de-glittered, making them much less conspicuous. They can also be tweaked with modules just like regular Chronicler Suits."
+    }
+  ]
+}

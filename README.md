@@ -26,11 +26,12 @@ Icons used in database are created by:
 - [x] Explosives
 - [x] Grenades
 - [x] Black powder
+- [x] Armor
 
 ### Icons
  
 - [x] Ammunition
-- [x] Brawl weapons (W.I.P)
+- [x] Brawl weapons
 
 ## Community
 Be a part of our community :) Join us at Discord https://discord.gg/degenesis
