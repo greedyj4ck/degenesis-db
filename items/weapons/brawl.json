@@ -176,6 +176,10 @@
                 {
                     "name": "Camo",
                     "property": "4S"
+                },
+                {
+                    "name": "Special",
+                    "property": null
                 }
             ],
             "encumbrance": null,

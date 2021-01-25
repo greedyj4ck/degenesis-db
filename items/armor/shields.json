@@ -1,0 +1,67 @@
+{
+  "item group": "Shields",
+  "items": [
+    {
+      "name": "Sheet metal shield",
+      "defense": [{ "active": 1 }, { "passive": 0 }],
+      "attack": -1,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 2,
+      "slots": 0,
+      "value": 40,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Plastic shield",
+      "defense": [{ "active": 2 }, { "passive": 0 }],
+      "attack": -1,
+      "qualities": [],
+      "encumbrance": 1,
+      "technology": 3,
+      "slots": 0,
+      "value": 220,
+      "resources": 0,
+      "cult": [],
+      "description": null,
+      "specialty": null
+    },
+    {
+      "name": "Oval shield",
+      "defense": [{ "active": 2 }, { "passive": 1 }],
+      "attack": -1,
+      "qualities": [{
+        "name": "Special",
+        "property": null
+      }],
+      "encumbrance": 2,
+      "technology": 2,
+      "slots": 0,
+      "value": 250,
+      "resources": 1,
+      "cult": ["Scourgers"],
+      "description": "Those who carry a hide-covered oval shield into battle do not follow the rules of modern warfare, but the commands of tradition. The assault rifle remains in camp, wrapped in oiled cloth, and instead the warrior chooses shield and spear. This way, he walks the path of the ancient ancestors, degrading the enemy to the level of an animal and the war to a hunt.",
+      "specialty": "The shield gives +2D to Active and +1 to Passive Defense. The shield impedes a warrior: -1D to Attack rolls."
+    },
+    {
+      "name": "Tunnel Shield",
+      "defense": [{ "active": 4 }, { "passive": 2 }],
+      "attack": -2,
+      "qualities": [{
+        "name": "Special",
+        "property": null
+      }],
+      "encumbrance": 3,
+      "technology": 4,
+      "slots": 0,
+      "value": 450,
+      "resources": 2,
+      "cult": ["Hellvetics"],
+      "description": "The Tunnel Shield is primarily used by Sappers as mobile cover for demolitions. The shield plates are collapsible to make transport in the tunnels easier.",
+      "specialty": "The Tunnel Shield offers (+2) Passive Defense and +4D to Active Defense. However, it is very unwieldy and heavy (encumbrance +3). Only 1-handed weapons can be used when carrying this shield, and all attacks are made with a penalty of -2D."
+    }
+  ]
+}

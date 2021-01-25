@@ -38,7 +38,7 @@
       "description": "The standard caliber of the NATO nations in the 21st century. Although NATO was ultimately supplanted by the UEO, the latter still accepted this ammo because of the capacities already manufactured. This same ammo is used today. The 5.56x45 mm UEO round is very effective against unprotected human targets, but has its difficulties with heavy body armor if the target is further away."
     },
     {
-      "ammo": "HF Full jacket",
+      "ammo": "HF Full Jacket",
       "damage": "11",
       "tech level": "4",
       "price": "80",
@@ -47,7 +47,7 @@
       "description": "This type of ammo is equal to the 5.56x45 mm UEO caliber but was modified by the Hellvetics to be fired from their Trailblazers at a high fire rate. To make it possible to cycle the bullets so fast, they are coated with Teflon."
     },
     {
-      "ammo": "HF Hollow point",
+      "ammo": "HF Hollow Point",
       "damage": "14",
       "tech level": "4",
       "price": "80",

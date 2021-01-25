@@ -114,7 +114,10 @@
       "damage": "Special",
       "damageBonus": null,
       "magazine": "Special",
-      "qualities": [],
+      "qualities": [{
+        "name": "Special",
+        "property": null
+      }],
       "encumbrance": 4,
       "technology": 4,
       "slots": 2,
@@ -126,7 +129,7 @@
     },
     {
       "name": "Trailblazer (FM)",
-      "caliber": "HF Full jacket",
+      "caliber": "HF Full Jacket",
       "handling": 0,
       "distance": [{ "effective": 30 }, { "far shot": 120 }],
       "damage": "11",
@@ -140,7 +143,12 @@
         {
           "name": "Salvoes",
           "property": "3"
+        },
+        {
+          "name": "Special",
+          "property": null
         }
+        
       ],
       "encumbrance": 2,
       "technology": 4,
@@ -153,7 +161,7 @@
     },
     {
       "name": "Trailblazer (HP)",
-      "caliber": "HF Hollow point",
+      "caliber": "HF Hollow Point",
       "handling": 0,
       "distance": [{ "effective": 30 }, { "far shot": 120 }],
       "damage": "14",
@@ -167,6 +175,10 @@
         {
           "name": "Salvoes",
           "property": "3"
+        },
+        {
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 2,
@@ -190,6 +202,10 @@
         {
           "name": "Scatter",
           "property": null
+        },
+        {
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 2,
@@ -203,7 +219,7 @@
     },
     {
       "name": "Judges' musket",
-      "caliber": "Lead bullet",
+      "caliber": "Lead Bullet",
       "handling": 0,
       "distance": [{ "effective": 10 }, { "far shot": 40 }],
       "damage": "8",
@@ -212,6 +228,10 @@
       "qualities": [
         {
           "name": "Muzzle Loader",
+          "property": null
+        },
+        {
+          "name": "Special",
           "property": null
         }
       ],
@@ -221,12 +241,12 @@
       "value": 900,
       "resources": 2,
       "cult": ["Judges"],
-      "description": "The muzzle loader made in Justitian’s factories by the Steel Masters is of a similar design to muskets from the Bygone 17th and 18th centuries. It is loaded with gunpowder and a lead bullet via the barrel, and then the load is compressed with a rod: the weapon can only shoot once before it needs to be reloaded. Every musket is adorned with standardized ornaments that show which Steel Master made it in which year. The hammer trap in the stock, which contains spare parts and maintenance material, is also standard.",
+      "description": "The muzzle loader made in Justitian’s factories by the Steel Masters is of a similar design to muskets from the Bygone 17th and 18th centuries. It is loaded with gunpowder and a Lead Bullet via the barrel, and then the load is compressed with a rod: the weapon can only shoot once before it needs to be reloaded. Every musket is adorned with standardized ornaments that show which Steel Master made it in which year. The hammer trap in the stock, which contains spare parts and maintenance material, is also standard.",
       "specialty": "There are a few double-barreled muskets. Every barrel is fired by its own trigger. If both barrels are fired at once, the accuracy decreases by -2D, but the Damage is doubled. The loading of a Judges’ musket takes (2) Actions (per barrel)."
     },
     {
       "name": "Marvel",
-      "caliber": "Lead bullet",
+      "caliber": "Lead Bullet",
       "handling": 0,
       "distance": [{ "effective": 10 }, { "far shot": 40 }],
       "damage": "8",
@@ -236,6 +256,10 @@
         {
           "name": "Muzzle Loader",
           "property": null
+        },
+        {
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 2,
@@ -244,7 +268,7 @@
       "value": 1400,
       "resources": 1,
       "cult": ["Scrappers"],
-      "description": "A Scrapper’s rifle is as unique as the man and his rune. Many dirt diggers are suspicious of any weapons salvaged from the ruins (after all, they were not able to save their owner) and screw and weld together their own rifles from whatever they find on their travels. The finished product is rarely beautiful, but always individual. All Marvels start as muzzle loaders and shoot gunpowder and lead bullets, but the user can change and modify the rifle to remove this limitation. Screwed-on blades or small daggers are common, though only as last-ditch security mechanisms.",
+      "description": "A Scrapper’s rifle is as unique as the man and his rune. Many dirt diggers are suspicious of any weapons salvaged from the ruins (after all, they were not able to save their owner) and screw and weld together their own rifles from whatever they find on their travels. The finished product is rarely beautiful, but always individual. All Marvels start as muzzle loaders and shoot gunpowder and Lead Bullets, but the user can change and modify the rifle to remove this limitation. Screwed-on blades or small daggers are common, though only as last-ditch security mechanisms.",
       "specialty": "Marvel rifles have the highest number of slots."
     },
     {
@@ -259,6 +283,10 @@
         {
           "name": "Salvoes",
           "property": "3"
+        },
+        {
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 2,
@@ -304,6 +332,10 @@
       "qualities": [
         {
           "name": "Thunder Strike",
+          "property": null
+        },
+        {
+          "name": "Special",
           "property": null
         }
       ],
@@ -390,6 +422,10 @@
         {
           "name": "Terrifying",
           "property": "4"
+        },
+        {
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 2,
@@ -417,6 +453,10 @@
         {
           "name": "Double Barreled",
           "property": null
+        },
+        {
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 2,
@@ -440,6 +480,10 @@
         {
           "name": "Salvoes",
           "property": "15"
+        },
+        {
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 7,
@@ -453,7 +497,7 @@
     },
     {
       "name": "Reapiting Air Rifle",
-      "caliber": "Lead bullet",
+      "caliber": "Lead Bullet",
       "handling": 0,
       "distance": [{ "effective": 30 }, { "far shot": 80 }],
       "damage": "7",
@@ -568,7 +612,7 @@
       "cult": [],
       "description": "The battle rifle is a weapon based on a frame similar to that of the Sagur 11 rifles used by the Swiss army, which became the Hellvetic Trailblazers, but it is far easier to operate by virtue of firing the much more common - although still exceedingly rare - 7.62 round. The powerful cartridge allows the rifle to dig into heavily armored targets, but it lacks the ability of the Hellvetic rifles to lay down a devastating carpet of bullets.",
       "specialty": null
-    }
+    },
     {
       "name": "Riot Shotgun",
       "caliber": "CALIBER 12 (Rifle barrel ammo)",

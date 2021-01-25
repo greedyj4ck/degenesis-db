@@ -203,6 +203,10 @@
         {
           "name": "Respected",
           "property": "+1D (Patients)"
+        },
+        {
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 2,
@@ -221,6 +225,10 @@
         {
           "name": "Sealed",
           "property": "+6S"
+        },
+        {
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 3,
@@ -257,6 +265,10 @@
         {
           "name": "First Impression",
           "property": "+1D"
+        },
+        {
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 1,
@@ -275,6 +287,10 @@
         {
           "name": "Fire Resistant",
           "property": "8"
+        },
+        {
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 3,
@@ -293,6 +309,10 @@
         {
           "name": "Camo",
           "property": "5C"
+        },
+        {
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 2,
@@ -368,7 +388,12 @@
     {
       "name": "Flak jacket and lion helmet",
       "rating": 4,
-      "qualities": [],
+      "qualities": [
+        {
+          "name": "Special",
+          "property": null
+        }
+      ],
       "encumbrance": 2,
       "technology": 4,
       "slots": 1,
@@ -385,6 +410,10 @@
         {
           "name": "Terrifying",
           "property": "3"
+        },
+        {
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 1,
@@ -411,6 +440,10 @@
         {
           "name": "Terrifying",
           "property": "5"
+        },
+        {
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 1,
