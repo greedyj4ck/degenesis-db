@@ -37,7 +37,7 @@
           "property": null
         },
         {
-          "name": "Talisman (for Anabaptists)",
+          "name": "Talisman",
           "property": "+1D"
         }
       ],
@@ -59,7 +59,7 @@
       "magazine": null,
       "qualities": [
         {
-          "name": "Talisman (for Anabaptists)",
+          "name": "Talisman",
           "property": "+1D"
         }
       ],
@@ -629,7 +629,7 @@
       "magazine": null,
       "qualities": [
         {
-          "name": "Special damage",
+          "name": "Special Damage",
           "property": "Psychonauts, +2"
         }
       ],
@@ -651,7 +651,7 @@
       "magazine": null,
       "qualities": [
         {
-          "name": "Special damage",
+          "name": "Special Damage",
           "property": "Psychonauts, +3"
         }
       ],
@@ -721,7 +721,7 @@
           "property": 8
         },
         {
-          "name": "Out of control",
+          "name": "Out of Control",
           "property": 3
         }
       ],
@@ -764,7 +764,7 @@
           "property": null
         },
         {
-          "name": "Standard (attack bonus)",
+          "name": "Standard",
           "property": "+1D"
         }
       ],
@@ -1003,8 +1003,7 @@
         {
           "name": "Fragile",
           "property": null
-        },
-        { "name": "Brawl", "property": null }
+        }
       ],
       "encumbrance": 1,
       "technology": 1,
@@ -1012,7 +1011,7 @@
       "value": 5,
       "resources": 0,
       "cult": [],
-      "description": null,
+      "description": "Can be used with Brawl test instead.",
       "specialty": null
     },
     {

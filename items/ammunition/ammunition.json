@@ -38,7 +38,7 @@
       "description": "The standard caliber of the NATO nations in the 21st century. Although NATO was ultimately supplanted by the UEO, the latter still accepted this ammo because of the capacities already manufactured. This same ammo is used today. The 5.56x45 mm UEO round is very effective against unprotected human targets, but has its difficulties with heavy body armor if the target is further away."
     },
     {
-      "ammo": "HF Full jacket",
+      "ammo": "HF Full Jacket",
       "damage": "11",
       "tech level": "4",
       "price": "80",
@@ -47,7 +47,7 @@
       "description": "This type of ammo is equal to the 5.56x45 mm UEO caliber but was modified by the Hellvetics to be fired from their Trailblazers at a high fire rate. To make it possible to cycle the bullets so fast, they are coated with Teflon."
     },
     {
-      "ammo": "HF Hollow point",
+      "ammo": "HF Hollow Point",
       "damage": "14",
       "tech level": "4",
       "price": "80",
@@ -125,16 +125,7 @@
       "price": "1000",
       "resources": null,
       "cult": [],
-      "description": "An E-Cube is a rechargeable energy reservoir that is used in energy weapons like the Soul Burner, the Shocker, or the Scourge because of its compact cubic form. It is also used in countless artifacts. The Chroniclers follow up on every find and buy what they can, so E-Cubes are rare and extremely expensive at market."
-    },
-    {
-      "ammo": "E-Cube recharging",
-      "damage": "0",
-      "tech level": "4",
-      "price": "100",
-      "resources": null,
-      "cult": [],
-      "description": "An E-Cube is a rechargeable energy reservoir that is used in energy weapons like the Soul Burner, the Shocker, or the Scourge because of its compact cubic form. It is also used in countless artifacts. The Chroniclers follow up on every find and buy what they can, so E-Cubes are rare and extremely expensive at market."
+      "description": "An E-Cube is a rechargeable energy reservoir that is used in energy weapons like the Soul Burner, the Shocker, or the Scourge because of its compact cubic form. It is also used in countless artifacts. The Chroniclers follow up on every find and buy what they can, so E-Cubes are rare and extremely expensive at market. Recharge cost is 100CD and requires technology (4)."
     },
     {
       "ammo": "Arrow",
@@ -159,10 +150,9 @@
       "damage": "0",
       "tech level": "3",
       "price": "300",
-      "africa price": "5",
       "resources": null,
       "cult": [],
-      "description": ""
+      "description": "Price in Africa 5CD."
     },
 
     {
@@ -211,13 +201,14 @@
       "description": "Advanced, self-propelled ammunition designed for use in a specialised weapon platform, each bullet contains sensors measuring thermal properties, distance to target, and magnetic forces that allow them to independently decide to detonate before hitting a soft target, spraying the vulnerable flesh with shrapnel and causing lacerating wounds, or remain solid when entering something armored, penetrating through to whatever is hidden beneath."
     },
     {
-      "ammo": "Freon Cartridges",
+      "ammo": "Freon Cartridge",
       "damage": "5",
       "tech level": "5",
       "price": "75",
       "resources": 2,
       "cult": ["Mechans"],
-      "description": "Nearly impossible to manufacture, the Freon cartridge contains a gas that causes a sudden and painful chilling effect when exposed to pressure changes. Freon based weapons often contain coolers that drop the temperature even further than its common storage level, leading to brutal frost burns affecting anyone coated in the icy blue vapor."
+      "description": "Only for Mechans. Nearly impossible to manufacture, the Freon cartridge contains a gas that causes a sudden and painful chilling effect when exposed to pressure changes. Freon based weapons often contain coolers that drop the temperature even further than its common storage level, leading to brutal frost burns affecting anyone coated in the icy blue vapor."
     }
+
   ]
 }

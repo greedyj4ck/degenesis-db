@@ -109,7 +109,7 @@
     },
     {
       "name": "Stubbed Trailblazer (FM)",
-      "caliber": "HF Full jacket",
+      "caliber": "HF Full Jacket",
       "handling": 0,
       "distance": [{ "effective": 15 }, { "far shot": 60 }],
       "damage": "11",
@@ -132,7 +132,7 @@
     },
     {
       "name": "Stubbed Trailblazer (HP)",
-      "caliber": "HF Hollow point",
+      "caliber": "HF Hollow Point",
       "handling": 0,
       "distance": [{ "effective": 15 }, { "far shot": 60 }],
       "damage": "14",
@@ -155,7 +155,7 @@
     },
     {
       "name": "Flintlock Pistol",
-      "caliber": "Lead bullet",
+      "caliber": "Lead Bullet",
       "handling": 0,
       "distance": [{ "effective": 5 }, { "far shot": 20 }],
       "damage": "8",
@@ -178,7 +178,7 @@
     },
     {
       "name": "Grinder",
-      "caliber": "Black powder",
+      "caliber": "Black Powder",
       "handling": 0,
       "distance": [{ "effective": 5 }, { "far shot": 20 }],
       "damage": "8",
@@ -305,7 +305,7 @@
     },
     {
       "name": "Raven's Sawnoff",
-      "caliber": "Cal. 12",
+      "caliber": "CALIBER 12 (Buckshot)",
       "handling": 1,
       "distance": [{ "effective": 3}, { "far shot": 15 }],
       "damage": "10",

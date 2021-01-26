@@ -4,7 +4,7 @@
   "items": [
     {
       "name": "Grenade launcher",
-      "caliber": "Grenades",
+      "caliber": "Grenade",
       "handling": -2,
       "distance": [{ "effective": 20 }, { "far shot": 60 }],
       "damage": "Special",
@@ -108,7 +108,7 @@
     },
     {
       "name": "Cartridge launcher",
-      "caliber": "Cartridges",
+      "caliber": "Cartridge",
       "handling": -2,
       "distance": [{ "effective": 20 }, { "far shot": 60 }],
       "damage": "Special",
@@ -117,6 +117,10 @@
       "qualities": [
         {
           "name": "Deviation",
+          "property": null
+        },
+        {
+          "name": "Special",
           "property": null
         }
       ],
@@ -131,7 +135,7 @@
     },
     {
       "name": "Pneumo Hammer",
-      "caliber": "Bolt / Coal",
+      "caliber": "Bolt & Coal",
       "handling": -2,
       "distance": [{ "effective": 10 }, { "far shot": 30 }],
       "damage": "10",
@@ -158,7 +162,7 @@
     },
     {
       "name": "Spitfire",
-      "caliber": "Petro",
+      "caliber": "Can of Petro",
       "handling": -2,
       "distance": [{ "effective": 3 }, { "far shot": 10 }],
       "damage": "12",
@@ -216,7 +220,7 @@
     },
     {
       "name": "Steam Cannon",
-      "caliber": "Steam / Coal (10kg)",
+      "caliber": "Coal",
       "handling": -1,
       "distance": [{ "effective": 10 }, { "far shot": 10 }],
       "damage": "12",
@@ -243,11 +247,11 @@
       "resources": 4,
       "cult": ["Pneumancers"],
       "description": "The two massive boilers mounted on his back hiss, heat and steam building up inside them. A heavy metal pipe runs down from each, on the verge of burning an imprint into the Pneumancer’s skin, leading to the pressure tank resting in the crook of his back. The warrior lifts the barrel of the cannon, steam from leaking through the seams and singing its gunner, but he ignores the pain as he aims his steam cannon at his enemies. He opens the valve attached to the cannon’s handle, and the burning gas surges forwards, mixing with screams as the hot steam breaches even the tiniest openings in armor to scorch the skin beneath.",
-      "specialty": "After every discharge, the weapon requires (1) Round to build up steam pressure, while charging it cannot be fired. Only armor with the Fire Resistant Quality can reduce the Damage of a steam cannon."
+      "specialty": "Requires 10kg of Coal. After every discharge, the weapon requires (1) Round to build up steam pressure, while charging it cannot be fired. Only armor with the Fire Resistant Quality can reduce the Damage of a steam cannon."
     },
     {
       "name": "Denier",
-      "caliber": "E-Cube x3",
+      "caliber": "E-Cube",
       "handling": 0,
       "distance": [{ "effective": 80 }, { "far shot": 80 }],
       "damage": "4",
@@ -277,7 +281,7 @@
       "value": 24000,
       "resources": 5,
       "cult": ["Palers", "RG"],
-      "description": "This strange looking weapon appears to be a boxy, rifle- like frame wrapped with wiring. The large button on its grip causes a microwave pulse to fire out in a wide arc, emanating from the resonant cavity at the tip of its barrel. Those who stand in the path of its impulse feel their bodies heating up from the inside. While the effect is non-lethal it still causes the afflicted to feel an incredibly overwhelming sensation. Palers have taken to using Deniers targeting their biggest competition, the Chroniclers, as not even the most advanced armors the techno- freaks can muster the will to resist the weapon’s microwave pulses.",
+      "description": "Requires E-Cube x3. This strange looking weapon appears to be a boxy, rifle- like frame wrapped with wiring. The large button on its grip causes a microwave pulse to fire out in a wide arc, emanating from the resonant cavity at the tip of its barrel. Those who stand in the path of its impulse feel their bodies heating up from the inside. While the effect is non-lethal it still causes the afflicted to feel an incredibly overwhelming sensation. Palers have taken to using Deniers targeting their biggest competition, the Chroniclers, as not even the most advanced armors the techno- freaks can muster the will to resist the weapon’s microwave pulses.",
       "specialty": null
     },
     {
@@ -313,9 +317,9 @@
     },
     {
       "name": "Marker Launcher",
-      "caliber": "Cartridges",
+      "caliber": "Cartridge",
       "handling": -2,
-      "distance": [{ "effective": 15}, { "far shot": 45 }],
+      "distance": [{ "effective": 15 }, { "far shot": 45 }],
       "damage": "Special",
       "damageBonus": null,
       "magazine": "1",
@@ -340,20 +344,16 @@
     },
     {
       "name": "Nullpelia's Toll",
-      "caliber": "Coal (160kg)",
+      "caliber": "Coal",
       "handling": 0,
-      "distance": [{ "effective": 1 }, { "far shot": 1}],
+      "distance": [{ "effective": 1 }, { "far shot": 1 }],
       "damage": "40",
       "damageBonus": null,
       "magazine": "1",
       "qualities": [
         {
-          "name": "INT+Engineering",
-          "property": "4"
-        },
-        {
-          "name": "Fires automatically after (x) hours",
-          "property": "5"
+          "name": "Special",
+          "property": null
         }
       ],
       "encumbrance": 1000,
@@ -363,7 +363,7 @@
       "resources": 6,
       "cult": ["Pneumancers"],
       "description": "Nullpellia’s Toll is a colossal siege engine carefully maintained by the Pneumancers from the days of the Mechanist himself. Built around a massive furnace hungrily devouring coal, a steam engine drives a piston over half a meter in diameter. The weapon is so massive that it requires a team of Pneumancers to move it on its wheeled mount when it is ready to fire.The heavy furnace needs (5) hours to reach the adequate pressure, after which the machine will fire on its own. This is why the Pneumancers have to precisely time the moment they move it against the surface they need to destroy. Once the pressure valves are opened, the reinforced steel end is set free and pushed by all of the energy accumulated in a devastating and focused blow. Due to the engine’s history, and the planning required to effectively utilise it, it is often left lifeless in Nullpellia’s grand halls, a monument to the heritage of the great city.",
-      "specialty": null
+      "specialty": "Requires 160kg of coal to run. Roll INT+ENGINEERING (4) to operate, and will fire automatically after 5 hours"
     }
   ]
 }

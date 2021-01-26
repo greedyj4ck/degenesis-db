@@ -4,7 +4,7 @@
   "items": [
     {
       "name": "Blow gun",
-      "caliber": "Nails",
+      "caliber": "Nail",
       "handling": 0,
       "distance": [{ "effective": 3 }, { "far shot": 12 }],
       "damage": "4",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Bow",
-      "caliber": "Arrows",
+      "caliber": "Arrow",
       "handling": -1,
       "distance": [{ "effective": 10 }, { "far shot": 40 }],
       "damage": "6",
@@ -76,7 +76,7 @@
     },
     {
       "name": "Composite bow",
-      "caliber": "Arrows",
+      "caliber": "Arrow",
       "handling": 0,
       "distance": [{ "effective": 15 }, { "far shot": 60}],
       "damage": "8",
