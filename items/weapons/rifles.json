@@ -323,7 +323,7 @@
     },
     {
       "name": "Masterpiece rifle",
-      "caliber": ".50GL",
+      "caliber": ".50 GL",
       "handling": 2,
       "distance": [{ "effective": 50 }, { "far shot": 400 }],
       "damage": "12",

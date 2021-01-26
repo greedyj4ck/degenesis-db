@@ -86,7 +86,7 @@
     },
     {
       "name": "Heavy Pistol",
-      "caliber": ".50GL",
+      "caliber": ".50 GL",
       "handling": 0,
       "distance": [{ "effective": 10 }, { "far shot": 40 }],
       "damage": "12",
