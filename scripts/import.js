@@ -493,4 +493,32 @@ return weapons;
 
 
 
+game.importDataPotentials = function() {
+  let potentials = []
+  fetch("systems/degenesis/import/potentials.json").then(r => r.json().then(json => {
+  for (let item of json.items)
+  {
+    let itemData = duplicate(game.system.model.Item.potential)
+    
+    itemData.effect = item.data.effect
+    itemData.rules = item.data.rules
+    itemData.origin = item.data.origin
+    itemData.prerequisite = item.data.prerequisites
+   
+    let newItem = {name : item.name, data : itemData, type : "potential", img : item.img}
+   
+   // Item.create(newItem);
+   // Items.update;
+      
+    potentials.push(newItem);
+  }
+}))
+
+
+return potentials;
+
+}
+
+
+
 
